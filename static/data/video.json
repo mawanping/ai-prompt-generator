@@ -1,0 +1,249 @@
+{
+  "category": "video",
+  "name": "视频脚本",
+  "icon": "🎬",
+  "tabs": [
+    {
+      "id": "video_type",
+      "name": "视频类型",
+      "blocks": [
+        {
+          "id": "short_video",
+          "name": "短视频/社交媒体",
+          "items": [
+            { "id": "tiktok_style", "name": "抖音/TikTok快节奏" },
+            { "id": "reels", "name": "Instagram Reels" },
+            { "id": "shorts", "name": "YouTube Shorts" },
+            { "id": "xiaohongshu", "name": "小红书种草" },
+            { "id": "bilibili", "name": "B站中视频" },
+            { "id": "wechat_channel", "name": "微信视频号" }
+          ]
+        },
+        {
+          "id": "long_video",
+          "name": "长视频/专业制作",
+          "items": [
+            { "id": "documentary", "name": "纪录片" },
+            { "id": "tutorial", "name": "教程/教学" },
+            { "id": "vlog", "name": "Vlog/日常记录" },
+            { "id": "interview", "name": "采访/访谈" },
+            { "id": "commercial_ad", "name": "广告/TVC" },
+            { "id": "brand_film", "name": "品牌形象片" },
+            { "id": "music_video", "name": "音乐视频/MV" },
+            { "id": "event_highlight", "name": "活动/婚礼花絮" }
+          ]
+        },
+        {
+          "id": "live_stream",
+          "name": "直播/互动",
+          "items": [
+            { "id": "ecom_live", "name": "电商带货直播" },
+            { "id": "game_live", "name": "游戏直播" },
+            { "id": "talk_live", "name": "聊天/连麦直播" },
+            { "id": "event_live", "name": "活动/发布会直播" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "script_structure",
+      "name": "脚本结构",
+      "blocks": [
+        {
+          "id": "framework",
+          "name": "叙事框架",
+          "items": [
+            { "id": "aida", "name": "AIDA（注意-兴趣-渴望-行动）" },
+            { "id": "pas", "name": "PAS（问题-放大-解决）" },
+            { "id": "star", "name": "STAR（情境-任务-行动-结果）" },
+            { "id": "hook_story", "name": "黄金7秒+故事反转" },
+            { "id": "three_act", "name": "三幕式（起-承-转-合）" },
+            { "id": "hero_journey", "name": "英雄之旅/成长弧线" },
+            { "id": "problem_solution", "name": "问题-解决方案/测评" },
+            { "id": "listacle", "name": "清单体/Top N排行" }
+          ]
+        },
+        {
+          "id": "hook_style",
+          "name": "开头钩子",
+          "items": [
+            { "id": "shocking_stat", "name": "惊人数据/反常识" },
+            { "id": "bold_claim", "name": "大胆断言/挑战认知" },
+            { "id": "question_hook", "name": "提问式/引发好奇" },
+            { "id": "story_hook", "name": "故事开场/第一人称" },
+            { "id": "visual_hook", "name": "视觉奇观/第一帧冲击" },
+            { "id": "emotional_hook", "name": "情感触动/共鸣开场" },
+            { "id": "controversy", "name": "争议话题/制造讨论" },
+            { "id": "mystery", "name": "悬念/未完待续" }
+          ]
+        },
+        {
+          "id": "cta_type",
+          "name": "结尾行动号召",
+          "items": [
+            { "id": "like_follow", "name": "点赞关注/一键三连" },
+            { "id": "comment_engage", "name": "评论区互动/投票" },
+            { "id": "link_bio", "name": "主页链接/橱窗购买" },
+            { "id": "share_forward", "name": "转发/分享给朋友" },
+            { "id": "next_episode", "name": "下集预告/系列连载" },
+            { "id": "free_download", "name": "免费领取/福利引导" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content_genre",
+      "name": "内容主题",
+      "blocks": [
+        {
+          "id": "category",
+          "name": "赛道/领域",
+          "items": [
+            { "id": "beauty_fashion", "name": "美妆/穿搭/时尚" },
+            { "id": "food_cooking", "name": "美食/探店/烹饪" },
+            { "id": "travel", "name": "旅行/风景/Vlog" },
+            { "id": "tech_review", "name": "数码/科技/评测" },
+            { "id": "fitness_health", "name": "健身/健康/养生" },
+            { "id": "knowledge_edu", "name": "知识科普/教育" },
+            { "id": "finance_biz", "name": "财经/创业/商业" },
+            { "id": "comedy_entertain", "name": "搞笑/娱乐/段子" },
+            { "id": "pet_animal", "name": "萌宠/动物" },
+            { "id": "parenting", "name": "育儿/亲子" },
+            { "id": "emotion_relate", "name": "情感/人际关系" },
+            { "id": "car_auto", "name": "汽车/驾驶" },
+            { "id": "home_decor", "name": "家居/装修/收纳" },
+            { "id": "art_craft", "name": "手工/艺术/绘画" },
+            { "id": "ai_future", "name": "AI/科技前沿" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visual_style",
+      "name": "视觉风格",
+      "blocks": [
+        {
+          "id": "aesthetic",
+          "name": "画面风格",
+          "items": [
+            { "id": "cinematic_style", "name": "电影感/大片质感" },
+            { "id": "documentary_style", "name": "纪实/手持/真实感" },
+            { "id": "motion_graphics", "name": "动态图形/MG动画" },
+            { "id": "vintage_film", "name": "复古胶片/8mm" },
+            { "id": "minimal_clean", "name": "极简/干净/留白" },
+            { "id": "glitch_cyber", "name": "故障艺术/赛博朋克" },
+            { "id": "pastel_dreamy", "name": "梦幻/柔光/糖果色" },
+            { "id": "high_contrast", "name": "高对比/黑白/暗调" },
+            { "id": "warm_ nostalgic", "name": "温暖怀旧/家庭录像" },
+            { "id": "futuristic_hud", "name": "未来科技/HUD界面" },
+            { "id": "stop_motion", "name": "定格动画/剪纸风" },
+            { "id": "split_screen", "name": "分屏/多画面" }
+          ]
+        },
+        {
+          "id": "camera_move",
+          "name": "运镜方式",
+          "items": [
+            { "id": "static_tripod", "name": "固定机位/三脚架" },
+            { "id": "handheld_shaky", "name": "手持抖动/呼吸感" },
+            { "id": "smooth_gimbal", "name": "稳定器/平滑跟拍" },
+            { "id": "drone_aerial", "name": "无人机/航拍" },
+            { "id": "dolly_zoom", "name": "推拉变焦/希区柯克" },
+            { "id": "slow_motion", "name": "慢动作/升格" },
+            { "id": "timelapse", "name": "延时摄影/快放" },
+            { "id": "pov", "name": "第一视角/POV" },
+            { "id": "whip_pan", "name": "快速摇镜/转场" },
+            { "id": "tracking_shot", "name": "跟随镜头/轨道" }
+          ]
+        },
+        {
+          "id": "transition",
+          "name": "转场效果",
+          "items": [
+            { "id": "match_cut", "name": "匹配剪辑/相似物转场" },
+            { "id": "whip_transition", "name": "快速摇镜转场" },
+            { "id": "zoom_transition", "name": "推进/拉远转场" },
+            { "id": "mask_transition", "name": "遮罩/图形转场" },
+            { "id": "glitch_transition", "name": "故障/信号干扰转场" },
+            { "id": "fade_dissolve", "name": "淡入淡出/叠化" },
+            { "id": "jump_cut", "name": "跳切/快节奏切换" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tone_voice",
+      "name": "语调/人设",
+      "blocks": [
+        {
+          "id": "tone",
+          "name": "叙事语调",
+          "items": [
+            { "id": "storyteller", "name": "讲故事的人/娓娓道来" },
+            { "id": "teacher", "name": "老师/科普讲解" },
+            { "id": "insider", "name": "业内人士/揭秘爆料" },
+            { "id": "comedian", "name": "幽默/吐槽/段子手" },
+            { "id": "skeptic", "name": "质疑者/反常识/较真" },
+            { "id": "motivator", "name": "励志/热血/燃" },
+            { "id": "friend", "name": "闺蜜/好物分享/聊天" },
+            { "id": "poetic", "name": "诗意/文艺/写意" },
+            { "id": "news_anchor", "name": "新闻播报/客观冷静" },
+            { "id": "agitator", "name": "挑衅/制造争议/对立" }
+          ]
+        },
+        {
+          "id": "emotion",
+          "name": "情绪基调",
+          "items": [
+            { "id": "joy_happy", "name": "快乐/治愈" },
+            { "id": "touching", "name": "感动/暖心/泪目" },
+            { "id": "exciting", "name": "热血/激动/燃炸" },
+            { "id": "calm_peaceful", "name": "平静/放松/助眠" },
+            { "id": "suspense", "name": "悬疑/紧张/惊悚" },
+            { "id": "nostalgic", "name": "怀旧/回忆杀" },
+            { "id": "curious", "name": "好奇/探索/未知" },
+            { "id": "angry", "name": "愤怒/批判/揭露" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_specs",
+      "name": "制作参数",
+      "blocks": [
+        {
+          "id": "format",
+          "name": "格式/时长",
+          "items": [
+            { "id": "15s", "name": "15秒/短视频黄金时长" },
+            { "id": "30s", "name": "30秒/完播率最佳" },
+            { "id": "60s", "name": "60秒/一分钟故事" },
+            { "id": "3min", "name": "3分钟/深度内容" },
+            { "id": "10min", "name": "10分钟/中视频" },
+            { "id": "vertical_9_16", "name": "竖屏 9:16" },
+            { "id": "horizontal_16_9", "name": "横屏 16:9" },
+            { "id": "square_1_1", "name": "方形 1:1" }
+          ]
+        },
+        {
+          "id": "audio",
+          "name": "音频/配乐",
+          "items": [
+            { "id": "trending_bgm", "name": "热门BGM/音乐卡点" },
+            { "id": "cinematic_score", "name": "电影配乐/史诗感" },
+            { "id": "lofi_chill", "name": "Lo-fi/放松/治愈" },
+            { "id": "edm_energetic", "name": "电子/节奏/燃" },
+            { "id": "ambient_atmo", "name": "环境音/白噪音" },
+            { "id": "voiceover", "name": "旁白配音/解说" },
+            { "id": "sound_design", "name": "音效设计/拟音" },
+            { "id": "acoustic", "name": "原声/吉他/民谣" }
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "prefix": "Write a professional video script with clear structure, engaging narrative, and strong visual direction.",
+    "suffix": "Optimize for audience retention with strong hooks, clear pacing, and memorable ending."
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "category": "architecture",
+  "name": "建筑渲染",
+  "icon": "🏛️",
+  "tabs": [
+    {
+      "id": "building_type",
+      "name": "建筑类型",
+      "blocks": [
+        {
+          "id": "residential",
+          "name": "住宅类",
+          "items": [
+            { "id": "single_family", "name": "独栋别墅" },
+            { "id": "townhouse", "name": "联排/叠墅" },
+            { "id": "apartment", "name": "公寓/高层住宅" },
+            { "id": "courtyard", "name": "合院/中式庭院" },
+            { "id": "cabin", "name": "林间小屋/度假木屋" },
+            { "id": "penthouse", "name": "顶层公寓/大平层" },
+            { "id": "tiny_home", "name": "微型住宅/集装箱" }
+          ]
+        },
+        {
+          "id": "commercial",
+          "name": "商业/公共",
+          "items": [
+            { "id": "office_tower", "name": "办公塔楼/总部" },
+            { "id": "retail_store", "name": "零售/旗舰店" },
+            { "id": "hotel_resort", "name": "酒店/度假村" },
+            { "id": "restaurant_cafe", "name": "餐厅/咖啡馆" },
+            { "id": "museum_gallery", "name": "博物馆/美术馆" },
+            { "id": "library", "name": "图书馆" },
+            { "id": "school_campus", "name": "学校/校园" },
+            { "id": "hospital_health", "name": "医院/康养中心" },
+            { "id": "mixed_use", "name": "综合体/混合用途" },
+            { "id": "stadium_arena", "name": "体育场馆/竞技场" },
+            { "id": "airport_station", "name": "机场/车站/交通枢纽" },
+            { "id": "religious", "name": "宗教建筑/教堂/寺庙" }
+          ]
+        },
+        {
+          "id": "interior_space",
+          "name": "室内空间",
+          "items": [
+            { "id": "living_room", "name": "客厅/起居室" },
+            { "id": "open_kitchen", "name": "开放式厨房" },
+            { "id": "master_bedroom", "name": "主卧/卧室" },
+            { "id": "bathroom_spa", "name": "浴室/SPA/卫生间" },
+            { "id": "home_office", "name": "书房/家庭办公" },
+            { "id": "dining_room", "name": "餐厅/宴会厅" },
+            { "id": "entry_foyer", "name": "玄关/门厅" },
+            { "id": "staircase", "name": "楼梯/中庭" },
+            { "id": "walk_in_closet", "name": "衣帽间" },
+            { "id": "balcony_terrace", "name": "阳台/露台" },
+            { "id": "basement_cellar", "name": "地下室/酒窖/影音室" },
+            { "id": "retail_interior", "name": "商业空间/店铺内装" }
+          ]
+        },
+        {
+          "id": "landscape",
+          "name": "景观/外部",
+          "items": [
+            { "id": "garden_courtyard", "name": "花园/庭院景观" },
+            { "id": "rooftop_garden", "name": "屋顶花园/露台" },
+            { "id": "pool_area", "name": "泳池/水景" },
+            { "id": "plaza_public", "name": "广场/公共空间" },
+            { "id": "entrance_driveway", "name": "入口/车道/落客区" },
+            { "id": "park_green", "name": "公园/绿地/景观" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arch_style",
+      "name": "建筑风格",
+      "blocks": [
+        {
+          "id": "style",
+          "name": "风格流派",
+          "items": [
+            { "id": "modern_minimal", "name": "现代/极简/方盒子" },
+            { "id": "contemporary", "name": "当代/流畅/有机" },
+            { "id": "japandi", "name": "Japandi/日式北欧融合" },
+            { "id": "new_chinese", "name": "新中式/东方现代" },
+            { "id": "industrial_loft", "name": "工业风/仓库改造" },
+            { "id": "mid_century", "name": "中古/世纪中期现代" },
+            { "id": "brutalist", "name": "粗野主义/混凝土" },
+            { "id": "mediterranean", "name": "地中海/白墙拱门" },
+            { "id": "scandinavian", "name": "北欧/温暖极简" },
+            { "id": "bauhaus", "name": "包豪斯/功能主义" },
+            { "id": "art_deco_bldg", "name": "装饰艺术/Art Deco" },
+            { "id": "neoclassical", "name": "新古典/柱式山花" },
+            { "id": "parametric", "name": "参数化/扎哈风格" },
+            { "id": "futuristic", "name": "未来主义/科幻" },
+            { "id": "tropical_modern", "name": "热带现代/度假风" },
+            { "id": "wabi_sabi", "name": "侘寂/残缺美学" },
+            { "id": "barn_modern", "name": "现代农舍/谷仓风" },
+            { "id": "deconstructivism", "name": "解构主义/盖里风" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "材质/立面",
+      "blocks": [
+        {
+          "id": "exterior_mat",
+          "name": "外立面材质",
+          "items": [
+            { "id": "white_stucco", "name": "白色抹灰/STUCCO" },
+            { "id": "board_concrete", "name": "木纹清水混凝土" },
+            { "id": "limestone_veneer", "name": "石灰石/米黄石材" },
+            { "id": "black_steel", "name": "黑色钢板/金属" },
+            { "id": "glass_curtain", "name": "玻璃幕墙/全透" },
+            { "id": "cedar_cladding", "name": "雪松木/防腐木" },
+            { "id": "terracotta_panel", "name": "陶板/红砖质感" },
+            { "id": "corten_steel", "name": "耐候钢/锈板" },
+            { "id": "copper_clad", "name": "铜板/绿锈" },
+            { "id": "grc_panel", "name": "GRC预制板/异形" },
+            { "id": "travertine", "name": "洞石/罗马洞石" },
+            { "id": "slate_stone", "name": "板岩/劈开面" },
+            { "id": "aluminum_louver", "name": "铝百叶/遮阳格栅" },
+            { "id": "exposed_brick", "name": "清水砖/红砖墙" }
+          ]
+        },
+        {
+          "id": "interior_mat",
+          "name": "室内材质",
+          "items": [
+            { "id": "oak_floor", "name": "橡木地板/人字拼" },
+            { "id": "polished_concrete", "name": "抛光混凝土/自流平" },
+            { "id": "terrazzo", "name": "水磨石/威尼斯灰" },
+            { "id": "marble_slab", "name": "大理石/卡拉拉白" },
+            { "id": "micro_cement", "name": "微水泥/无缝墙地" },
+            { "id": "plaster_wall", "name": "艺术涂料/硅藻泥" },
+            { "id": "fluted_glass", "name": "长虹玻璃/压花玻璃" },
+            { "id": "brass_fixture", "name": "黄铜五金/拉丝" },
+            { "id": "walnut_veneer", "name": "胡桃木饰面/木作" },
+            { "id": "travertine_tile", "name": "洞石/莱姆石" },
+            { "id": "tatami", "name": "榻榻米/蔺草" },
+            { "id": "linen_textile", "name": "亚麻/棉麻布艺" }
+          ]
+        },
+        {
+          "id": "roof_form",
+          "name": "屋顶形式",
+          "items": [
+            { "id": "flat_roof", "name": "平屋顶/上人屋面" },
+            { "id": "pitched_roof", "name": "坡屋顶/传统" },
+            { "id": "butterfly_roof", "name": "蝴蝶屋顶/现代" },
+            { "id": "green_roof", "name": "绿化屋顶/生态" },
+            { "id": "deep_overhang", "name": "深挑檐/水平延展" },
+            { "id": "skylight_atrium", "name": "天窗/采光顶" },
+            { "id": "standing_seam", "name": "立边咬合金属屋面" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lighting_atmo",
+      "name": "光照/氛围",
+      "blocks": [
+        {
+          "id": "natural_light",
+          "name": "自然光/时段",
+          "items": [
+            { "id": "morning_soft", "name": "清晨柔光/通透" },
+            { "id": "golden_hour_warm", "name": "黄金时刻/暖金" },
+            { "id": "noon_bright", "name": "正午明亮/清晰" },
+            { "id": "overcast_diffuse", "name": "阴天漫射/柔和中性" },
+            { "id": "twilight_dusk", "name": "黄昏/蓝调暮光" },
+            { "id": "night_ambient", "name": "夜景/灯光氛围" },
+            { "id": "rain_wet", "name": "雨后/湿润地面反光" },
+            { "id": "fog_mist", "name": "雾天/朦胧/氛围感" },
+            { "id": "snow_white", "name": "雪景/纯白覆盖" }
+          ]
+        },
+        {
+          "id": "interior_light",
+          "name": "室内灯光",
+          "items": [
+            { "id": "warm_2700k", "name": "暖光 2700K/温馨" },
+            { "id": "neutral_3500k", "name": "中性光 3500K/自然" },
+            { "id": "cool_4000k", "name": "冷白 4000K/办公" },
+            { "id": "cove_indirect", "name": "间接照明/暗藏灯带" },
+            { "id": "pendant_focus", "name": "吊灯/重点照明" },
+            { "id": "track_spot", "name": "轨道灯/射灯" },
+            { "id": "fireplace_glow", "name": "壁炉火光/温馨" },
+            { "id": "candlelight", "name": "烛光/浪漫氛围" },
+            { "id": "daylight_soft", "name": "大窗柔光/通透明亮" }
+          ]
+        },
+        {
+          "id": "mood_atmo",
+          "name": "情绪氛围",
+          "items": [
+            { "id": "calm_serene", "name": "宁静/禅意" },
+            { "id": "warm_cozy", "name": "温暖/舒适/治愈" },
+            { "id": "dramatic_luxury", "name": "戏剧性/奢华" },
+            { "id": "airy_spacious", "name": "通透/敞亮/呼吸感" },
+            { "id": "mysterious_dark", "name": "神秘/暗调/高级感" },
+            { "id": "lively_vibrant", "name": "活泼/热闹/烟火气" },
+            { "id": "minimal_cold", "name": "极简/冷静/克制" },
+            { "id": "nostalgic_warm", "name": "怀旧/时光感/老房子" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camera_view",
+      "name": "视角/镜头",
+      "blocks": [
+        {
+          "id": "exterior_view",
+          "name": "外观视角",
+          "items": [
+            { "id": "eye_level_street", "name": "人视/街道视角" },
+            { "id": "corner_perspective", "name": "转角透视/最有表现力" },
+            { "id": "front_elevation", "name": "正立面/对称" },
+            { "id": "aerial_bird", "name": "鸟瞰/航拍/45度" },
+            { "id": "top_down_plan", "name": "顶视/总平面" },
+            { "id": "worm_eye", "name": "虫视/仰望天空" },
+            { "id": "dusk_hero_shot", "name": "黄昏英雄视角/营销图" },
+            { "id": "contextual_street", "name": "街景/融入城市语境" }
+          ]
+        },
+        {
+          "id": "interior_view",
+          "name": "室内视角",
+          "items": [
+            { "id": "wide_interior_24mm", "name": "广角室内/24mm" },
+            { "id": "standard_28mm", "name": "标准/28mm" },
+            { "id": "corner_interior", "name": "角落透视/最大化空间" },
+            { "id": "one_point_persp", "name": "一点透视/进深感" },
+            { "id": "two_point_persp", "name": "两点透视/自然" },
+            { "id": "detail_vignette", "name": "细节特写/材质肌理" },
+            { "id": "through_view", "name": "框景/借景/穿透" },
+            { "id": "mirror_reflection_view", "name": "镜中反射/趣味" }
+          ]
+        },
+        {
+          "id": "lens_effect",
+          "name": "镜头效果",
+          "items": [
+            { "id": "tilt_shift", "name": "移轴/微缩模型感" },
+            { "id": "wide_angle_drama", "name": "超广角/夸张透视" },
+            { "id": "telephoto_compress", "name": "长焦压缩/扁平感" },
+            { "id": "orthographic", "name": "正交投影/轴测图" },
+            { "id": "fisheye", "name": "鱼眼/特殊效果" },
+            { "id": "shallow_dof", "name": "浅景深/焦点突出" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "render_quality",
+      "name": "渲染品质",
+      "blocks": [
+        {
+          "id": "quality_level",
+          "name": "质量等级",
+          "items": [
+            { "id": "photoreal_8k", "name": "照片级/8K超写实" },
+            { "id": "archviz_pro", "name": "专业建筑可视化" },
+            { "id": "editorial_quality", "name": "建筑文摘/杂志级" },
+            { "id": "presentation_board", "name": "汇报展板/概念表达" },
+            { "id": "clay_render", "name": "白模/素模渲染" },
+            { "id": "sketch_style", "name": "手绘/素描风格" },
+            { "id": "watercolor_style", "name": "水彩/艺术化" },
+            { "id": "collage_style", "name": "拼贴/插画风" },
+            { "id": "diagram_style", "name": "分析图/图解" }
+          ]
+        },
+        {
+          "id": "render_engine",
+          "name": "渲染引擎",
+          "items": [
+            { "id": "vray_corona", "name": "V-Ray/Corona" },
+            { "id": "lumion", "name": "Lumion/实时渲染" },
+            { "id": "twinmotion", "name": "Twinmotion/UE5" },
+            { "id": "enscape", "name": "Enscape/即时" },
+            { "id": "d5_render", "name": "D5渲染器/国产" },
+            { "id": "blender_cycles", "name": "Blender Cycles" },
+            { "id": "octane", "name": "Octane Render" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "context_season",
+      "name": "环境/季节",
+      "blocks": [
+        {
+          "id": "season",
+          "name": "季节",
+          "items": [
+            { "id": "spring_blossom", "name": "春天/樱花盛放" },
+            { "id": "summer_lush", "name": "夏天/郁郁葱葱" },
+            { "id": "autumn_foliage", "name": "秋天/红叶/金黄" },
+            { "id": "winter_snow", "name": "冬天/白雪覆盖" }
+          ]
+        },
+        {
+          "id": "setting",
+          "name": "场地环境",
+          "items": [
+            { "id": "urban_infill", "name": "城市插建/沿街" },
+            { "id": "suburban_quiet", "name": "郊区/宁静社区" },
+            { "id": "coastal_cliff", "name": "海滨/悬崖" },
+            { "id": "mountain_slope", "name": "山坡/森林边" },
+            { "id": "desert_arid", "name": "沙漠/干旱" },
+            { "id": "tropical_lush", "name": "热带/密林" },
+            { "id": "rural_field", "name": "田园/乡村" },
+            { "id": "historic_district", "name": "历史街区/老城" }
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "prefix": "Professional architectural visualization, photorealistic rendering, balanced composition, physically accurate materials, natural lighting,",
+    "suffix": "architectural photography quality, no distorted perspective, no unrealistic proportions, clean architectural visualization"
+  }
+}

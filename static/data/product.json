@@ -1,0 +1,234 @@
+{
+  "category": "product",
+  "name": "产品摄影",
+  "icon": "📦",
+  "tabs": [
+    {
+      "id": "shot_type",
+      "name": "拍摄类型",
+      "blocks": [
+        {
+          "id": "type",
+          "name": "图片类型",
+          "items": [
+            { "id": "white_bg_main", "name": "白底主图/纯白#FFFFFF" },
+            { "id": "lifestyle", "name": "场景使用/生活方式" },
+            { "id": "detail_macro", "name": "细节特写/微距" },
+            { "id": "group_shot", "name": "组合/套装/全家福" },
+            { "id": "unboxing", "name": "开箱/拆封仪式感" },
+            { "id": "flat_lay", "name": "俯拍/平面摆拍" },
+            { "id": "in_hand", "name": "手持/佩戴展示" },
+            { "id": "scale_ref", "name": "带参照物/大小对比" },
+            { "id": "promo_banner", "name": "促销海报/活动图" },
+            { "id": "360_spin", "name": "360度旋转展示" },
+            { "id": "before_after", "name": "前后对比/效果展示" },
+            { "id": "packaging_shot", "name": "包装展示/礼盒感" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product_category",
+      "name": "产品品类",
+      "blocks": [
+        {
+          "id": "electronics",
+          "name": "电子/数码",
+          "items": [
+            { "id": "smartphone", "name": "手机/平板" },
+            { "id": "laptop", "name": "笔记本/电脑" },
+            { "id": "headphone", "name": "耳机/音箱" },
+            { "id": "watch_tech", "name": "智能手表/穿戴" },
+            { "id": "camera_gear", "name": "相机/镜头/器材" },
+            { "id": "game_console", "name": "游戏主机/手柄" }
+          ]
+        },
+        {
+          "id": "beauty_health",
+          "name": "美妆/个护",
+          "items": [
+            { "id": "skincare", "name": "护肤品/精华/面霜" },
+            { "id": "makeup_prod", "name": "彩妆/口红/眼影" },
+            { "id": "perfume", "name": "香水/香薰" },
+            { "id": "haircare", "name": "洗发/护发/造型" },
+            { "id": "supplement", "name": "保健品/营养品" }
+          ]
+        },
+        {
+          "id": "food_drink",
+          "name": "食品/饮品",
+          "items": [
+            { "id": "beverage", "name": "饮料/酒水/咖啡" },
+            { "id": "snack", "name": "零食/糕点/甜品" },
+            { "id": "fresh_food", "name": "生鲜/水果/蔬菜" },
+            { "id": "condiment", "name": "调味品/酱料" },
+            { "id": "tea_set", "name": "茶具/杯具" }
+          ]
+        },
+        {
+          "id": "fashion_accessory",
+          "name": "服饰/配饰",
+          "items": [
+            { "id": "clothing_item", "name": "服装/鞋/包" },
+            { "id": "jewelry", "name": "珠宝/首饰/戒指" },
+            { "id": "eyewear", "name": "眼镜/墨镜/镜框" },
+            { "id": "fabric_texture", "name": "面料细节/材质" }
+          ]
+        },
+        {
+          "id": "home_life",
+          "name": "家居/生活",
+          "items": [
+            { "id": "furniture", "name": "家具/灯具" },
+            { "id": "kitchenware", "name": "厨具/餐具/锅具" },
+            { "id": "bedding", "name": "床品/家纺/毛巾" },
+            { "id": "decoration", "name": "装饰/摆件/花瓶" },
+            { "id": "stationery", "name": "文具/办公/手账" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "name": "背景/台面",
+      "blocks": [
+        {
+          "id": "bg_type",
+          "name": "背景选择",
+          "items": [
+            { "id": "pure_white", "name": "纯白/无缝 #FFFFFF" },
+            { "id": "light_grey", "name": "浅灰/高级灰" },
+            { "id": "black_dramatic", "name": "纯黑/戏剧感" },
+            { "id": "marble_white", "name": "白色大理石纹" },
+            { "id": "marble_black", "name": "黑色大理石/奢华" },
+            { "id": "wood_light", "name": "浅木纹/北欧" },
+            { "id": "wood_dark", "name": "深木纹/胡桃木" },
+            { "id": "concrete_industrial", "name": "水泥/工业风" },
+            { "id": "kraft_paper", "name": "牛皮纸/环保" },
+            { "id": "silk_fabric", "name": "丝绸/缎面布景" },
+            { "id": "mirror_reflective", "name": "镜面/倒影台" },
+            { "id": "acrylic_stand", "name": "亚克力/透明台" },
+            { "id": "gradient_color", "name": "渐变色背景" },
+            { "id": "natural_outdoor", "name": "户外自然/草地/沙滩" },
+            { "id": "kitchen_counter", "name": "厨房台面/现代" },
+            { "id": "desk_workspace", "name": "书桌/工作台" },
+            { "id": "bedroom_cozy", "name": "卧室/床品/温馨" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lighting_style",
+      "name": "布光/光影",
+      "blocks": [
+        {
+          "id": "light_setup",
+          "name": "灯光方案",
+          "items": [
+            { "id": "soft_studio", "name": "柔光摄影棚/无影" },
+            { "id": "natural_window_light", "name": "窗边自然光/柔和" },
+            { "id": "dramatic_rim", "name": "戏剧性轮廓光" },
+            { "id": "backlit_glow", "name": "逆光/透光/发光" },
+            { "id": "top_down_spot", "name": "顶光聚光/舞台感" },
+            { "id": "warm_golden", "name": "暖金色光/温馨" },
+            { "id": "cool_neon", "name": "冷色/霓虹/科技感" },
+            { "id": "dual_tone", "name": "双色光/红蓝/粉蓝" },
+            { "id": "morning_sun", "name": "清晨阳光/通透" },
+            { "id": "dusk_twilight", "name": "黄昏/暮光/氛围" }
+          ]
+        },
+        {
+          "id": "reflection",
+          "name": "反射/高光",
+          "items": [
+            { "id": "matte_diffuse", "name": "哑光/无反射" },
+            { "id": "glossy_highlight", "name": "光泽/高光点" },
+            { "id": "water_droplets", "name": "水珠/凝露/冰爽" },
+            { "id": "steam_fog", "name": "水汽/烟雾/朦胧" },
+            { "id": "oil_sheen", "name": "油润光泽/食品" },
+            { "id": "metal_reflection", "name": "金属反光/质感" },
+            { "id": "glass_refraction", "name": "玻璃折射/通透" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composition_angle",
+      "name": "构图/角度",
+      "blocks": [
+        {
+          "id": "camera_angle",
+          "name": "拍摄角度",
+          "items": [
+            { "id": "front_center", "name": "正面/居中（主图）" },
+            { "id": "three_quarter_angle", "name": "45度角（最常用）" },
+            { "id": "top_down", "name": "俯拍/平面摆拍" },
+            { "id": "low_angle_hero", "name": "仰拍/英雄视角" },
+            { "id": "macro_closeup", "name": "微距特写/纹理" },
+            { "id": "dutch_angle", "name": "倾斜/动感角度" },
+            { "id": "eye_level", "name": "平视/使用者视角" },
+            { "id": "floating", "name": "悬浮/失重/创意" }
+          ]
+        },
+        {
+          "id": "composition_rule",
+          "name": "构图规则",
+          "items": [
+            { "id": "centered_symmetry", "name": "中心对称（电商主图）" },
+            { "id": "rule_of_thirds", "name": "三分法/场景图" },
+            { "id": "negative_space_comp", "name": "留白/空间感" },
+            { "id": "diagonal_arrange", "name": "对角线排列/动感" },
+            { "id": "frame_fill", "name": "满版/填满画框" },
+            { "id": "leading_lines_comp", "name": "引导线/纵深感" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "style_tone",
+      "name": "风格/调性",
+      "blocks": [
+        {
+          "id": "style",
+          "name": "视觉风格",
+          "items": [
+            { "id": "minimal_clean", "name": "极简/干净/无印良品风" },
+            { "id": "luxury_premium", "name": "高端/奢华/珠宝感" },
+            { "id": "natural_organic", "name": "自然/有机/健康系" },
+            { "id": "tech_future", "name": "科技/未来/科幻感" },
+            { "id": "vintage_classic", "name": "复古/经典/老钱风" },
+            { "id": "kawaii_cute", "name": "可爱/萌系/少女心" },
+            { "id": "bold_dynamic", "name": "大胆/动感/街头风" },
+            { "id": "zen_calm", "name": "禅意/平静/东方美学" },
+            { "id": "industrial_rough", "name": "工业/粗糙/粗犷感" },
+            { "id": "editorial_story", "name": "杂志/叙事/故事感" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality_specs",
+      "name": "画质/规范",
+      "blocks": [
+        {
+          "id": "resolution",
+          "name": "分辨率/格式",
+          "items": [
+            { "id": "8k_uhd", "name": "8K/超高清" },
+            { "id": "4k", "name": "4K/电商标准" },
+            { "id": "square_1_1", "name": "1:1方形（Amazon主图）" },
+            { "id": "portrait_3_4", "name": "3:4竖版（详情页）" },
+            { "id": "landscape_16_9", "name": "16:9横版（Banner）" },
+            { "id": "300dpi", "name": "300DPI/印刷级" },
+            { "id": "png_transparent", "name": "PNG透明底" },
+            { "id": "product_85_percent", "name": "产品占幅≥85%" }
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "prefix": "Professional commercial product photography, studio lighting, ultra high resolution, detailed texture, sharp focus,",
+    "suffix": "clean commercial shot, professional e-commerce photography, no watermarks, no text overlay"
+  }
+}

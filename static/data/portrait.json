@@ -1,6 +1,7 @@
 {
   "category": "portrait",
   "name": "人像写真",
+  "icon": "📷",
   "tabs": [
     {
       "id": "subject",
@@ -12,232 +13,305 @@
           "items": [
             { "id": "male", "name": "男性" },
             { "id": "female", "name": "女性" },
-            { "id": "neutral", "name": "中性" }
+            { "id": "neutral", "name": "中性" },
+            { "id": "androgynous", "name": "无性别感" }
           ]
         },
         {
           "id": "age",
           "name": "年龄段",
           "items": [
-            { "id": "teen", "name": "少女" },
-            { "id": "youth", "name": "青年" },
-            { "id": "mature", "name": "成熟" },
-            { "id": "elder", "name": "中老年" }
+            { "id": "child", "name": "儿童" },
+            { "id": "teen", "name": "少女/少年" },
+            { "id": "youth", "name": "20-30岁青年" },
+            { "id": "mature", "name": "30-45岁成熟" },
+            { "id": "middle", "name": "45-60岁中年" },
+            { "id": "elder", "name": "60+老年" }
           ]
         },
         {
           "id": "figure",
-          "name": "体型",
+          "name": "体型/身材",
           "items": [
             { "id": "slim", "name": "纤细" },
             { "id": "average", "name": "匀称" },
-            { "id": "curvy", "name": "丰腴" },
-            { "id": "athletic", "name": "健美" },
+            { "id": "curvy", "name": "丰腴/沙漏型" },
+            { "id": "athletic", "name": "健美/运动型" },
             { "id": "petite", "name": "娇小" },
-            { "id": "tall", "name": "高挑" }
+            { "id": "tall", "name": "高挑" },
+            { "id": "plus_size", "name": "大码/丰满" },
+            { "id": "hourglass", "name": "S型曲线" }
           ]
         },
         {
-          "id": "feature",
+          "id": "face_feature",
           "name": "面部特征",
           "items": [
             { "id": "high_beauty", "name": "超高颜值" },
+            { "id": "natural_face", "name": "自然/素颜感" },
             { "id": "freckles", "name": "雀斑" },
-            { "id": "mole", "name": "痣/泪痣" },
+            { "id": "beauty_mole", "name": "美人痣/泪痣" },
             { "id": "dimples", "name": "酒窝" },
-            { "id": "sharp_face", "name": "瓜子脸" },
+            { "id": "oval_face", "name": "瓜子脸/鹅蛋脸" },
             { "id": "round_face", "name": "圆脸" },
+            { "id": "square_jaw", "name": "方脸/高级脸" },
             { "id": "high_nose", "name": "高鼻梁" },
-            { "id": "full_lips", "name": "厚唇" },
+            { "id": "full_lips", "name": "丰满唇" },
             { "id": "double_eyelid", "name": "双眼皮" },
-            { "id": "single_eyelid", "name": "单眼皮" },
-            { "id": "fox_eyes", "name": "狐狸眼" },
-            { "id": "doe_eyes", "name": "鹿眼" }
+            { "id": "fox_eyes", "name": "狐狸眼/丹凤眼" },
+            { "id": "doe_eyes", "name": "小鹿眼/圆眼" },
+            { "id": "almond_eyes", "name": "杏仁眼" },
+            { "id": "sharp_features", "name": "骨感/棱角分明" },
+            { "id": "soft_features", "name": "柔和/圆润轮廓" },
+            { "id": "glasses", "name": "戴眼镜" }
           ]
         },
         {
           "id": "ethnicity",
-          "name": "人种/地域",
+          "name": "人种/地域感",
           "items": [
-            { "id": "asian", "name": "东亚" },
-            { "id": "european", "name": "欧美" },
-            { "id": "latina", "name": "拉美" },
+            { "id": "east_asian", "name": "东亚面孔" },
+            { "id": "european", "name": "欧美/高加索" },
+            { "id": "latina", "name": "拉丁/南美" },
             { "id": "african", "name": "非裔" },
-            { "id": "indian", "name": "印度" },
-            { "id": "mixed", "name": "混血" }
+            { "id": "south_asian", "name": "南亚/印度" },
+            { "id": "middle_eastern", "name": "中东/波斯" },
+            { "id": "eurasian", "name": "欧亚混血" },
+            { "id": "mixed", "name": "多族裔混血" }
+          ]
+        },
+        {
+          "id": "skin_tone",
+          "name": "肤色",
+          "items": [
+            { "id": "porcelain", "name": "瓷白/冷白皮" },
+            { "id": "fair", "name": "白皙" },
+            { "id": "warm_ivory", "name": "暖象牙白" },
+            { "id": "olive", "name": "橄榄色" },
+            { "id": "tan", "name": "小麦色/古铜" },
+            { "id": "dark", "name": "深色皮肤" },
+            { "id": "ebony", "name": "乌木色" },
+            { "id": "freckled", "name": "雀斑肌" }
           ]
         }
       ]
     },
     {
       "id": "clothing",
-      "name": "服装",
+      "name": "服装/造型",
       "blocks": [
         {
           "id": "style",
-          "name": "风格",
+          "name": "服装风格",
           "items": [
             { "id": "hanfu", "name": "汉服" },
             { "id": "cheongsam", "name": "旗袍" },
-            { "id": "qipao", "name": "改良旗袍" },
-            { "id": "jk", "name": "JK制服" },
+            { "id": "new_chinese", "name": "新中式" },
+            { "id": "jk_uniform", "name": "JK制服" },
             { "id": "lolita", "name": "洛丽塔" },
-            { "id": "suit", "name": "西装" },
-            { "id": "evening", "name": "晚礼服" },
-            { "id": "wedding", "name": "婚纱" },
-            { "id": "yukata", "name": "浴衣" },
-            { "id": "kimono", "name": "和服" },
-            { "id": "gothic", "name": "哥特" },
-            { "id": "vintage", "name": "复古" },
-            { "id": "sporty", "name": "运动风" },
-            { "id": "casual", "name": "休闲" },
-            { "id": "lingerie", "name": "内衣" },
-            { "id": "swimwear", "name": "泳装" },
-            { "id": "leather", "name": "皮衣" },
+            { "id": "suit_blazer", "name": "西装/正装" },
+            { "id": "evening_gown", "name": "晚礼服" },
+            { "id": "wedding_dress", "name": "婚纱" },
+            { "id": "streetwear", "name": "街头潮牌" },
+            { "id": "y2k", "name": "Y2K千禧风" },
+            { "id": "gorpcore", "name": "户外机能风" },
+            { "id": "casual", "name": "日常休闲" },
+            { "id": "sportswear", "name": "运动装" },
+            { "id": "boho", "name": "波西米亚" },
+            { "id": "gothic", "name": "哥特暗黑" },
+            { "id": "cyberpunk_wear", "name": "赛博朋克装" },
+            { "id": "vintage_retro", "name": "复古/Vintage" },
+            { "id": "lingerie", "name": "内衣/性感" },
+            { "id": "swimwear", "name": "泳装/比基尼" },
+            { "id": "kimono_yukata", "name": "和服/浴衣" },
+            { "id": "korean_fashion", "name": "韩系穿搭" }
+          ]
+        },
+        {
+          "id": "material",
+          "name": "面料/质感",
+          "items": [
+            { "id": "silk", "name": "丝绸/缎面" },
             { "id": "lace", "name": "蕾丝" },
-            { "id": "silk", "name": "丝绸" },
-            { "id": "denim", "name": "牛仔" }
+            { "id": "leather", "name": "皮革" },
+            { "id": "denim", "name": "牛仔/丹宁" },
+            { "id": "knit", "name": "针织/毛衣" },
+            { "id": "chiffon", "name": "雪纺/薄纱" },
+            { "id": "velvet", "name": "丝绒/天鹅绒" },
+            { "id": "tweed", "name": "粗花呢" },
+            { "id": "cotton_linen", "name": "棉麻" },
+            { "id": "fur", "name": "皮草/毛绒" },
+            { "id": "latex", "name": "乳胶/漆皮" },
+            { "id": "mesh", "name": "网纱/透视" }
+          ]
+        },
+        {
+          "id": "accessory",
+          "name": "配饰",
+          "items": [
+            { "id": "necklace", "name": "项链" },
+            { "id": "earrings", "name": "耳环" },
+            { "id": "bracelet", "name": "手镯/手链" },
+            { "id": "ring", "name": "戒指" },
+            { "id": "watch", "name": "手表" },
+            { "id": "choker", "name": "项圈/Choker" },
+            { "id": "hair_accessory", "name": "发饰/发带" },
+            { "id": "hat_cap", "name": "帽子" },
+            { "id": "scarf", "name": "丝巾/围巾" },
+            { "id": "belt", "name": "腰带" },
+            { "id": "gloves", "name": "手套" },
+            { "id": "bag", "name": "包袋" },
+            { "id": "sunglasses", "name": "墨镜" },
+            { "id": "tattoo", "name": "纹身" },
+            { "id": "piercing", "name": "穿刺/钉饰" }
           ]
         }
       ]
     },
     {
       "id": "makeup",
-      "name": "妆容",
+      "name": "妆容/发型",
       "blocks": [
         {
           "id": "eyemakeup",
           "name": "眼妆",
           "items": [
-            { "id": "cat_eye", "name": "猫眼眼线" },
+            { "id": "cat_eye", "name": "猫眼上挑眼线" },
             { "id": "smokey", "name": "烟熏妆" },
-            { "id": "natural_eye", "name": "裸眼妆" },
-            { "id": "glitter", "name": "亮片眼妆" },
-            { "id": "long_lashes", "name": "长睫毛" },
-            { "id": "colored_contact", "name": "美瞳" }
+            { "id": "puppy_eye", "name": "下垂狗狗眼" },
+            { "id": "natural_eye", "name": "伪素颜/裸眼" },
+            { "id": "glitter_eye", "name": "亮片/闪粉眼妆" },
+            { "id": "graphic_liner", "name": "创意眼线/图形" },
+            { "id": "long_lashes", "name": "浓密长睫毛" },
+            { "id": "colored_contact", "name": "美瞳/彩色隐形" },
+            { "id": "eyeshadow_gradient", "name": "渐变层次眼影" },
+            { "id": "aegyo_sal", "name": "卧蚕提亮" }
           ]
         },
         {
           "id": "lip",
           "name": "唇妆",
           "items": [
-            { "id": "red_lip", "name": "红唇" },
-            { "id": "nude_lip", "name": "裸唇" },
-            { "id": "glossy_lip", "name": "玻璃唇" },
-            { "id": "ombre_lip", "name": "咬唇妆" }
+            { "id": "red_lip", "name": "正红/复古红唇" },
+            { "id": "nude_lip", "name": "裸色/MLBB" },
+            { "id": "glossy_lip", "name": "水光玻璃唇" },
+            { "id": "matte_lip", "name": "哑光/雾面唇" },
+            { "id": "ombre_lip", "name": "渐变咬唇妆" },
+            { "id": "dark_lip", "name": "暗黑/浆果色" },
+            { "id": "blurred_lip", "name": "模糊唇线" }
           ]
         },
         {
           "id": "hairstyle",
           "name": "发型",
           "items": [
-            { "id": "long_hair", "name": "长发" },
-            { "id": "short_hair", "name": "短发" },
-            { "id": "curly", "name": "卷发" },
-            { "id": "straight", "name": "直发" },
-            { "id": "ponytail", "name": "马尾" },
-            { "id": "bun", "name": "盘发" },
-            { "id": "bangs", "name": "刘海" },
-            { "id": "twin_tail", "name": "双马尾" },
-            { "id": "bob", "name": "波波头" },
-            { "id": "braid", "name": "编发" },
-            { "id": "wet_hair", "name": "湿发" },
-            { "id": "colored_hair", "name": "染发" }
+            { "id": "long_straight", "name": "长直发" },
+            { "id": "long_wavy", "name": "大波浪卷" },
+            { "id": "short_bob", "name": "短发/波波头" },
+            { "id": "pixie", "name": "精灵短发" },
+            { "id": "wolf_cut", "name": "狼尾剪" },
+            { "id": "curly_afro", "name": "蓬松卷/爆炸头" },
+            { "id": "ponytail", "name": "高马尾" },
+            { "id": "low_pony", "name": "低马尾" },
+            { "id": "bun", "name": "丸子头/盘发" },
+            { "id": "twin_tails", "name": "双马尾" },
+            { "id": "braids", "name": "编发/辫子" },
+            { "id": "bangs", "name": "空气刘海" },
+            { "id": "see_through_bangs", "name": "法式八字刘海" },
+            { "id": "wet_look", "name": "湿发造型" },
+            { "id": "messy_bedhead", "name": "慵懒/睡不醒" },
+            { "id": "slicked_back", "name": "大背头/油头" },
+            { "id": "pink_hair", "name": "粉色染发" },
+            { "id": "blonde", "name": "金发" },
+            { "id": "silver_grey", "name": "银灰/奶奶灰" },
+            { "id": "two_tone", "name": "双色/挑染" }
           ]
         },
         {
           "id": "makeup_style",
-          "name": "妆面风格",
+          "name": "整体妆感",
           "items": [
-            { "id": "no_makeup", "name": "素颜" },
-            { "id": "korean", "name": "韩系" },
-            { "id": "japanese", "name": "日系" },
-            { "id": "chinese", "name": "中式" },
-            { "id": "european_mk", "name": "欧美" },
-            { "id": "retro_mk", "name": "复古妆" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "scene",
-      "name": "场景",
-      "blocks": [
-        {
-          "id": "indoor",
-          "name": "室内",
-          "items": [
-            { "id": "studio", "name": "摄影棚" },
-            { "id": "bedroom", "name": "卧室" },
-            { "id": "bathroom", "name": "浴室" },
-            { "id": "cafe", "name": "咖啡馆" },
-            { "id": "hotel", "name": "酒店" },
-            { "id": "window_light", "name": "窗边" },
-            { "id": "mirror", "name": "镜子前" }
-          ]
-        },
-        {
-          "id": "outdoor",
-          "name": "室外",
-          "items": [
-            { "id": "sakura", "name": "樱花" },
-            { "id": "beach", "name": "海滩" },
-            { "id": "forest", "name": "森林" },
-            { "id": "city", "name": "城市街拍" },
-            { "id": "rain", "name": "雨天" },
-            { "id": "snow", "name": "雪景" },
-            { "id": "sunset", "name": "夕阳" },
-            { "id": "night", "name": "夜景" },
-            { "id": "grassland", "name": "草原" },
-            { "id": "ruins", "name": "废墟" },
-            { "id": "rooftop", "name": "天台" },
-            { "id": "alley", "name": "小巷" }
+            { "id": "no_makeup", "name": "素颜/裸妆" },
+            { "id": "korean_glass", "name": "韩系水光肌" },
+            { "id": "japanese_igari", "name": "日系宿醉妆" },
+            { "id": "chinese_classic", "name": "中式古典妆" },
+            { "id": "western_contour", "name": "欧美修容妆" },
+            { "id": "retro_pinup", "name": "复古画报妆" },
+            { "id": "douyin_makeup", "name": "抖音网红妆" },
+            { "id": "gothic_makeup", "name": "暗黑/哥特妆" },
+            { "id": "editorial_makeup", "name": "杂志/艺术妆" },
+            { "id": "dewy_skin", "name": "光泽感底妆" },
+            { "id": "matte_skin", "name": "哑光雾面底妆" },
+            { "id": "blush_focus", "name": "大面积腮红" }
           ]
         }
       ]
     },
     {
       "id": "lighting",
-      "name": "光影",
+      "name": "光影/布光",
       "blocks": [
         {
           "id": "light_type",
-          "name": "布光",
+          "name": "布光方式",
           "items": [
-            { "id": "rembrandt", "name": "伦勃朗光" },
-            { "id": "butterfly", "name": "蝴蝶光" },
-            { "id": "split", "name": "分割光" },
+            { "id": "rembrandt", "name": "伦勃朗光（三角光）" },
+            { "id": "butterfly", "name": "蝴蝶光/派拉蒙光" },
+            { "id": "split", "name": "分割光/阴阳脸" },
             { "id": "loop", "name": "环形光" },
-            { "id": "flat", "name": "平光" },
-            { "id": "backlight", "name": "逆光" },
-            { "id": "rim_light", "name": "轮廓光" },
-            { "id": "side_light", "name": "侧光" },
-            { "id": "top_light", "name": "顶光" },
-            { "id": "under_light", "name": "底光" }
+            { "id": "rim_light", "name": "轮廓光/边缘光" },
+            { "id": "backlight_silhouette", "name": "逆光剪影" },
+            { "id": "golden_hour", "name": "黄金时刻逆光" },
+            { "id": "soft_window", "name": "窗边柔光" },
+            { "id": "neon_rim", "name": "霓虹轮廓光" },
+            { "id": "chiaroscuro", "name": "强烈明暗对比" },
+            { "id": "volumetric", "name": "体积光/丁达尔" },
+            { "id": "clamshell", "name": "贝壳光/蛤壳光" },
+            { "id": "three_point", "name": "三点布光" }
           ]
         },
         {
-          "id": "time",
-          "name": "时段/天气",
+          "id": "light_source",
+          "name": "光源类型",
           "items": [
-            { "id": "golden_hour", "name": "黄金时刻" },
-            { "id": "blue_hour", "name": "蓝调时刻" },
-            { "id": "noon", "name": "正午" },
-            { "id": "overcast", "name": "阴天" },
-            { "id": "foggy", "name": "雾天" },
-            { "id": "neon", "name": "霓虹灯" },
+            { "id": "natural_window", "name": "窗边自然光" },
+            { "id": "softbox", "name": "柔光箱" },
+            { "id": "ring_light", "name": "环形灯/眼神光" },
+            { "id": "led_rgb", "name": "RGB彩色灯" },
             { "id": "candle", "name": "烛光" },
-            { "id": "firework", "name": "烟花" }
+            { "id": "neon_sign", "name": "霓虹招牌" },
+            { "id": "street_lamp", "name": "路灯/街灯" },
+            { "id": "car_headlight", "name": "车灯" },
+            { "id": "fireworks", "name": "烟花/焰火" },
+            { "id": "phone_screen", "name": "手机屏幕光" },
+            { "id": "projector", "name": "投影仪/幻灯" },
+            { "id": "strobe", "name": "频闪/闪光灯" }
           ]
         },
         {
           "id": "color_temp",
-          "name": "色温",
+          "name": "色温/色调",
           "items": [
-            { "id": "warm", "name": "暖调 3000K" },
-            { "id": "daylight", "name": "日光 5500K" },
-            { "id": "cool", "name": "冷调 7000K" },
-            { "id": "mixed_temp", "name": "混合色温" }
+            { "id": "warm_3000k", "name": "暖黄光 2700-3200K" },
+            { "id": "daylight_5500k", "name": "日光白 5000-5500K" },
+            { "id": "cool_7000k", "name": "冷蓝调 6500-7500K" },
+            { "id": "mixed_temp", "name": "混合冷暖色温" },
+            { "id": "pink_purple", "name": "粉紫氛围" },
+            { "id": "cyan_blue", "name": "青蓝/赛博色调" },
+            { "id": "golden_warm", "name": "金黄暖调" },
+            { "id": "moody_dark", "name": "暗调/低调光" }
+          ]
+        },
+        {
+          "id": "shadow_style",
+          "name": "阴影风格",
+          "items": [
+            { "id": "soft_shadow", "name": "柔和阴影" },
+            { "id": "hard_shadow", "name": "硬阴影/清晰投影" },
+            { "id": "window_blind", "name": "百叶窗条纹影" },
+            { "id": "leaf_shadow", "name": "树叶斑驳光影" },
+            { "id": "no_shadow", "name": "无阴影/平光" },
+            { "id": "colored_shadow", "name": "彩色滤镜阴影" }
           ]
         }
       ]
@@ -248,325 +322,449 @@
       "blocks": [
         {
           "id": "focal",
-          "name": "焦段",
+          "name": "焦段选择",
           "items": [
-            { "id": "24mm", "name": "24mm 广角" },
-            { "id": "35mm", "name": "35mm 人文" },
-            { "id": "50mm", "name": "50mm 标准" },
-            { "id": "85mm", "name": "85mm 人像" },
-            { "id": "135mm", "name": "135mm 长焦" },
-            { "id": "200mm", "name": "200mm 压缩" },
-            { "id": "macro", "name": "微距" }
+            { "id": "24mm", "name": "24mm 广角/环境人像" },
+            { "id": "35mm", "name": "35mm 人文/街拍" },
+            { "id": "50mm", "name": "50mm 标准/自然视角" },
+            { "id": "85mm", "name": "85mm 经典人像镜皇" },
+            { "id": "135mm", "name": "135mm 长焦/压缩感" },
+            { "id": "200mm", "name": "200mm 远景/强烈压缩" },
+            { "id": "70_200_zoom", "name": "70-200mm 变焦" }
           ]
         },
         {
           "id": "aperture",
           "name": "光圈/景深",
           "items": [
-            { "id": "f14", "name": "f/1.4 极浅景深" },
-            { "id": "f18", "name": "f/1.8" },
-            { "id": "f28", "name": "f/2.8" },
-            { "id": "f4", "name": "f/4" },
-            { "id": "f8", "name": "f/8 深景深" },
-            { "id": "bokeh", "name": "奶油虚化" },
-            { "id": "sharp_all", "name": "全景清晰" }
+            { "id": "f12", "name": "f/1.2 极致虚化" },
+            { "id": "f14", "name": "f/1.4 奶油虚化" },
+            { "id": "f18", "name": "f/1.8 常用虚化" },
+            { "id": "f28", "name": "f/2.8 适中景深" },
+            { "id": "f4", "name": "f/4 环境清晰" },
+            { "id": "f8", "name": "f/8 全景深" },
+            { "id": "creamy_bokeh", "name": "奶油般虚化散景" },
+            { "id": "cat_eye_bokeh", "name": "猫眼散景" }
           ]
         },
         {
-          "id": "film",
-          "name": "胶片/模拟",
+          "id": "film_stock",
+          "name": "胶片模拟",
           "items": [
-            { "id": "kodak_portra", "name": "Kodak Portra" },
-            { "id": "kodak_gold", "name": "Kodak Gold" },
-            { "id": "fuji_velvia", "name": "Fuji Velvia" },
-            { "id": "fuji_pro", "name": "Fuji Pro 400H" },
-            { "id": "ilford", "name": "Ilford 黑白" },
-            { "id": "cinestill", "name": "Cinestill 800T" },
-            { "id": "polaroid", "name": "宝丽来" },
-            { "id": "lomo", "name": "LOMO" },
-            { "id": "grain", "name": "胶片颗粒" },
-            { "id": "light_leak", "name": "漏光" }
+            { "id": "kodak_portra_400", "name": "Kodak Portra 400" },
+            { "id": "kodak_portra_800", "name": "Kodak Portra 800" },
+            { "id": "kodak_gold_200", "name": "Kodak Gold 200" },
+            { "id": "kodak_ektar", "name": "Kodak Ektar 100" },
+            { "id": "fuji_400h", "name": "Fuji Pro 400H" },
+            { "id": "fuji_velvia", "name": "Fuji Velvia 50" },
+            { "id": "fuji_superia", "name": "Fuji Superia X-TRA" },
+            { "id": "ilford_hp5", "name": "Ilford HP5 黑白" },
+            { "id": "cinestill_800t", "name": "Cinestill 800T" },
+            { "id": "polaroid", "name": "宝丽来/拍立得" },
+            { "id": "disposable_cam", "name": "一次性相机质感" },
+            { "id": "film_grain", "name": "胶片颗粒感" },
+            { "id": "light_leaks", "name": "漏光效果" },
+            { "id": "vhs_effect", "name": "VHS录像带质感" },
+            { "id": "ccd_sensor", "name": "CCD老数码质感" }
           ]
         },
         {
-          "id": "brand",
-          "name": "设备质感",
+          "id": "camera_brand",
+          "name": "设备品牌调色",
           "items": [
-            { "id": "leica", "name": "徕卡质感" },
+            { "id": "leica", "name": "徕卡/德味" },
             { "id": "hasselblad", "name": "哈苏中画幅" },
-            { "id": "canon", "name": "佳能色调" },
-            { "id": "sony", "name": "索尼锐度" },
-            { "id": "nikon", "name": "尼康色彩" },
-            { "id": "medium_format", "name": "中画幅" },
-            { "id": "large_format", "name": "大画幅" }
+            { "id": "canon", "name": "佳能/肤色优化" },
+            { "id": "sony", "name": "索尼/高锐度" },
+            { "id": "nikon", "name": "尼康/高宽容度" },
+            { "id": "fujifilm", "name": "富士/胶片模拟" },
+            { "id": "contax", "name": "康泰时/蔡司" },
+            { "id": "arri_alexa", "name": "ARRI Alexa/电影机" },
+            { "id": "red_dsmc", "name": "RED/电影质感" },
+            { "id": "iphone", "name": "iPhone/手机摄影" }
           ]
         }
       ]
     },
     {
       "id": "style",
-      "name": "风格/色调",
+      "name": "风格/美学",
       "blocks": [
         {
           "id": "art_style",
           "name": "艺术风格",
           "items": [
-            { "id": "realistic", "name": "超写实" },
-            { "id": "cg", "name": "CG渲染" },
-            { "id": "anime", "name": "动漫" },
-            { "id": "oil", "name": "油画" },
-            { "id": "sketch", "name": "素描" },
-            { "id": "watercolor", "name": "水彩" },
-            { "id": "ink", "name": "水墨" },
+            { "id": "hyperrealistic", "name": "超写实/照片级" },
+            { "id": "cinematic", "name": "电影感/胶片叙事" },
+            { "id": "editorial", "name": "杂志编辑风" },
+            { "id": "fashion_campaign", "name": "时尚广告大片" },
+            { "id": "vintage_retro_style", "name": "复古/怀旧" },
+            { "id": "90s_disposable", "name": "90年代一次性相机" },
+            { "id": "dreamy_soft", "name": "梦幻柔焦" },
+            { "id": "dark_moody", "name": "暗调/情绪风" },
+            { "id": "high_key", "name": "高调/明亮系" },
+            { "id": "low_key", "name": "低调/暗黑系" },
+            { "id": "surreal", "name": "超现实/梦境" },
+            { "id": "oil_painting", "name": "油画质感" },
+            { "id": "watercolor", "name": "水彩手绘" },
             { "id": "cyberpunk", "name": "赛博朋克" },
             { "id": "vaporwave", "name": "蒸汽波" },
-            { "id": "minimal", "name": "极简" },
-            { "id": "dreamy", "name": "梦幻" },
-            { "id": "cinematic", "name": "电影感" }
+            { "id": "baroque", "name": "巴洛克/古典油画" },
+            { "id": "minimalist", "name": "极简/留白" },
+            { "id": "documentary", "name": "纪实/抓拍感" },
+            { "id": "double_exposure", "name": "双重曝光" },
+            { "id": "glitch_art", "name": "故障艺术" }
           ]
         },
         {
-          "id": "color_grade",
-          "name": "调色",
+          "id": "color_grading",
+          "name": "调色风格",
           "items": [
-            { "id": "teal_orange", "name": "青橙色调" },
-            { "id": "high_contrast", "name": "高对比" },
-            { "id": "low_sat", "name": "低饱和" },
-            { "id": "muted", "name": "莫兰迪" },
-            { "id": "vibrant", "name": "高饱和" },
-            { "id": "monochrome", "name": "单色" },
-            { "id": "sepia", "name": " sepia" },
-            { "id": "cross_process", "name": "交叉冲洗" }
+            { "id": "teal_orange", "name": "青橙色调/好莱坞" },
+            { "id": "moody_green", "name": "暗绿/情绪绿" },
+            { "id": "warm_vintage", "name": "温暖复古棕" },
+            { "id": "faded_pastel", "name": "褪色/低饱和/莫兰迪" },
+            { "id": "vibrant_pop", "name": "高饱和/鲜艳/波普" },
+            { "id": "black_white", "name": "黑白/单色" },
+            { "id": "sepia", "name": "怀旧棕褐/ sepia" },
+            { "id": "cool_blue", "name": "冷蓝/冰感" },
+            { "id": "pink_blush", "name": "粉调/少女感" },
+            { "id": "cross_process", "name": "交叉冲洗/偏色" },
+            { "id": "bleach_bypass", "name": "漂白留银/去饱和" },
+            { "id": "split_tone", "name": "分离色调" }
+          ]
+        },
+        {
+          "id": "trend_2025",
+          "name": "2025-2026 流行趋势",
+          "items": [
+            { "id": "glassmorphism", "name": "玻璃质感/液态玻璃" },
+            { "id": "halftone", "name": "半调网纹/波普点" },
+            { "id": "nostalgia_core", "name": "怀旧内核/童年记忆" },
+            { "id": "motion_blur", "name": "动态模糊/速度线" },
+            { "id": "scrapbook", "name": "拼贴手账/剪贴簿" },
+            { "id": "camcorder", "name": "DV/摄像机复古" },
+            { "id": "ai_action_figure", "name": "AI潮玩/手办质感" },
+            { "id": "imperfect_beauty", "name": "不完美美学/真实感" }
           ]
         }
       ]
     },
     {
       "id": "composition",
-      "name": "构图",
+      "name": "构图/视角",
       "blocks": [
         {
           "id": "framing",
           "name": "景别",
           "items": [
-            { "id": "closeup", "name": "特写" },
+            { "id": "extreme_closeup", "name": "极致特写（眼/唇）" },
+            { "id": "headshot", "name": "头像照/证件风" },
             { "id": "bust", "name": "胸像" },
-            { "id": "half", "name": "半身" },
-            { "id": "full", "name": "全身" },
-            { "id": "wide", "name": "广角全身" },
-            { "id": "env", "name": "环境人像" }
+            { "id": "waist_up", "name": "半身/腰部以上" },
+            { "id": "three_quarter", "name": "七分像/膝盖以上" },
+            { "id": "full_body", "name": "全身" },
+            { "id": "wide_env", "name": "环境人像/广角全身" }
           ]
         },
         {
           "id": "angle",
-          "name": "角度",
+          "name": "拍摄角度",
           "items": [
-            { "id": "front", "name": "正面" },
-            { "id": "three_q", "name": "3/4侧" },
-            { "id": "profile", "name": "正侧" },
-            { "id": "low_angle", "name": "仰拍" },
-            { "id": "high_angle", "name": "俯拍" },
-            { "id": "dutch", "name": "荷兰角" },
-            { "id": "overhead", "name": "顶视" }
+            { "id": "eye_level", "name": "眼平/平视" },
+            { "id": "low_angle", "name": "低角度/仰拍" },
+            { "id": "high_angle", "name": "高角度/俯拍" },
+            { "id": "dutch_tilt", "name": "斜角/荷兰角" },
+            { "id": "birds_eye", "name": "鸟瞰/顶视" },
+            { "id": "worms_eye", "name": "虫视/极仰" },
+            { "id": "over_shoulder", "name": "过肩拍/窥视感" },
+            { "id": "reflection", "name": "镜中/水面反射" }
           ]
         },
         {
-          "id": "ratio",
-          "name": "画幅",
+          "id": "composition_rule",
+          "name": "构图法则",
           "items": [
-            { "id": "vertical", "name": "竖构图" },
-            { "id": "horizontal", "name": "横构图" },
-            { "id": "square", "name": "方画幅" },
-            { "id": "ultrawide", "name": "超宽屏" },
-            { "id": "65mm", "name": "IMAX 画幅" }
+            { "id": "rule_of_thirds", "name": "三分法/九宫格" },
+            { "id": "center_symmetry", "name": "中心对称" },
+            { "id": "leading_lines", "name": "引导线" },
+            { "id": "frame_within_frame", "name": "框式构图" },
+            { "id": "negative_space", "name": "大量留白" },
+            { "id": "diagonal", "name": "对角线构图" },
+            { "id": "golden_ratio", "name": "黄金螺旋" }
+          ]
+        },
+        {
+          "id": "aspect_ratio",
+          "name": "画幅比例",
+          "items": [
+            { "id": "vertical_9_16", "name": "竖屏 9:16" },
+            { "id": "portrait_3_4", "name": "人像 3:4" },
+            { "id": "portrait_4_5", "name": "人像 4:5" },
+            { "id": "square_1_1", "name": "方形 1:1" },
+            { "id": "landscape_16_9", "name": "横屏 16:9" },
+            { "id": "cinema_21_9", "name": "宽银幕 2.35:1" },
+            { "id": "imax_65", "name": "IMAX 画幅" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene",
+      "name": "场景/环境",
+      "blocks": [
+        {
+          "id": "indoor",
+          "name": "室内场景",
+          "items": [
+            { "id": "photo_studio", "name": "摄影棚/无缝纸" },
+            { "id": "bedroom_morning", "name": "卧室/晨光" },
+            { "id": "luxury_hotel", "name": "奢华酒店" },
+            { "id": "art_gallery", "name": "美术馆/画廊" },
+            { "id": "retro_cafe", "name": "复古咖啡馆" },
+            { "id": "grand_library", "name": "图书馆/书房" },
+            { "id": "dressing_room", "name": "化妆间/衣帽间" },
+            { "id": "subway_station", "name": "地铁站" },
+            { "id": "concert_hall", "name": "音乐厅" },
+            { "id": "gym_mirror", "name": "健身房/镜中" },
+            { "id": "bathroom_steam", "name": "浴室/水汽" },
+            { "id": "greenhouse", "name": "温室/花房" }
+          ]
+        },
+        {
+          "id": "outdoor",
+          "name": "室外场景",
+          "items": [
+            { "id": "sakura_park", "name": "樱花树下" },
+            { "id": "beach_sunset", "name": "海滩/日落" },
+            { "id": "misty_forest", "name": "迷雾森林" },
+            { "id": "neon_street", "name": "霓虹街道/赛博夜景" },
+            { "id": "rainy_alley", "name": "雨巷/潮湿路面" },
+            { "id": "snow_field", "name": "雪地/雪景" },
+            { "id": "golden_wheat", "name": "麦田/草原" },
+            { "id": "abandoned_ruins", "name": "废墟/工业遗址" },
+            { "id": "rooftop_city", "name": "天台/城市天际线" },
+            { "id": "lavender_field", "name": "薰衣草花海" },
+            { "id": "bamboo_forest", "name": "竹林/禅意" },
+            { "id": "night_market", "name": "夜市/烟火气" },
+            { "id": "cliff_seaside", "name": "悬崖/海岸" },
+            { "id": "old_town_alley", "name": "古镇/石板路" }
+          ]
+        },
+        {
+          "id": "special_env",
+          "name": "特殊环境",
+          "items": [
+            { "id": "underwater", "name": "水下" },
+            { "id": "zero_gravity", "name": "失重/太空" },
+            { "id": "mirror_world", "name": "镜面世界" },
+            { "id": "miniature", "name": "微缩/移轴" },
+            { "id": "aurora_sky", "name": "极光天空" },
+            { "id": "desert_dunes", "name": "沙漠/沙丘" }
           ]
         }
       ]
     },
     {
       "id": "pose",
-      "name": "姿态",
+      "name": "姿态/表情",
       "blocks": [
         {
           "id": "posture",
-          "name": "姿势",
+          "name": "身体姿态",
           "items": [
-            { "id": "stand", "name": "站立" },
-            { "id": "sit", "name": "坐姿" },
-            { "id": "lie", "name": "躺卧" },
-            { "id": "kneel", "name": "跪姿" },
-            { "id": "lean", "name": "倚靠" },
-            { "id": "squat", "name": "蹲下" },
-            { "id": "walk", "name": "行走" },
-            { "id": "run", "name": "奔跑" }
+            { "id": "standing_natural", "name": "自然站立" },
+            { "id": "contrapposto", "name": "S型站立/重心偏移" },
+            { "id": "sitting_casual", "name": "随意坐姿" },
+            { "id": "lying_down", "name": "躺卧/侧卧" },
+            { "id": "kneeling", "name": "跪坐/蹲坐" },
+            { "id": "leaning_wall", "name": "靠墙/倚靠" },
+            { "id": "walking_stride", "name": "行走中/大步" },
+            { "id": "running_motion", "name": "奔跑/动态" },
+            { "id": "dancing", "name": "舞蹈/旋转" },
+            { "id": "jumping", "name": "跳跃/腾空" },
+            { "id": "hand_on_face", "name": "手托腮/扶脸" },
+            { "id": "arms_crossed", "name": "双手交叉/抱胸" },
+            { "id": "hair_flip", "name": "撩头发" },
+            { "id": "looking_back", "name": "回眸/转头" },
+            { "id": "candid_moment", "name": "抓拍/不经意瞬间" }
           ]
         },
         {
           "id": "expression",
-          "name": "表情/视线",
+          "name": "表情/情绪",
           "items": [
-            { "id": "smile", "name": "微笑" },
-            { "id": "laugh", "name": "大笑" },
-            { "id": "cold", "name": "冷峻" },
-            { "id": "shy", "name": "害羞" },
-            { "id": "seductive", "name": "魅惑" },
-            { "id": "innocent", "name": "无辜" },
-            { "id": "look_camera", "name": "看镜头" },
-            { "id": "look_away", "name": "不看镜头" },
-            { "id": "eyes_closed", "name": "闭眼" },
-            { "id": "lip_bite", "name": "咬唇" }
+            { "id": "genuine_smile", "name": "自然微笑/笑眼" },
+            { "id": "big_laugh", "name": "开怀大笑" },
+            { "id": "mysterious_smirk", "name": "神秘/嘴角微扬" },
+            { "id": "cold_stare", "name": "冷峻/凝视" },
+            { "id": "shy_glance", "name": "害羞/低眉" },
+            { "id": "seductive_gaze", "name": "魅惑/勾人眼神" },
+            { "id": "innocent_look", "name": "无辜/楚楚可怜" },
+            { "id": "melancholy", "name": "忧郁/若有所思" },
+            { "id": "fierce", "name": "凶狠/强势" },
+            { "id": "serene", "name": "宁静/淡然" },
+            { "id": "surprised", "name": "惊讶" },
+            { "id": "crying_tears", "name": "流泪/哭泣" },
+            { "id": "eyes_closed", "name": "闭眼/冥想" },
+            { "id": "lip_bite", "name": "咬唇" },
+            { "id": "tongue_out", "name": "吐舌/俏皮" },
+            { "id": "nostalgic", "name": "怀旧/追忆" },
+            { "id": "confident", "name": "自信/霸气" }
+          ]
+        },
+        {
+          "id": "hand_gesture",
+          "name": "手部动作",
+          "items": [
+            { "id": "peace_sign", "name": "V字/剪刀手" },
+            { "id": "finger_heart", "name": "手指比心" },
+            { "id": "pointing", "name": "指向某处" },
+            { "id": "adjusting_hair", "name": "整理头发" },
+            { "id": "holding_object", "name": "手持道具" },
+            { "id": "waving", "name": "挥手" },
+            { "id": "hands_in_pockets", "name": "手插口袋" },
+            { "id": "touching_face", "name": "手触脸颊" }
+          ]
+        },
+        {
+          "id": "interaction",
+          "name": "互动关系",
+          "items": [
+            { "id": "solo_portrait", "name": "单人独照" },
+            { "id": "mirror_selfie", "name": "对镜自拍" },
+            { "id": "eye_contact", "name": "与镜头对视" },
+            { "id": "looking_off_frame", "name": "看向画外" },
+            { "id": "doubles", "name": "双人/闺蜜/情侣" },
+            { "id": "group", "name": "群像/团队" },
+            { "id": "with_pet", "name": "与宠物互动" },
+            { "id": "with_prop", "name": "手持花/道具" }
           ]
         }
       ]
     },
     {
       "id": "anime",
-      "name": "动漫",
+      "name": "动漫/二次元",
       "blocks": [
         {
-          "id": "anime_type",
-          "name": "类型",
+          "id": "anime_style",
+          "name": "动漫风格",
           "items": [
-            { "id": "anime_char", "name": "动漫角色" },
-            { "id": "manga", "name": "漫画风格" },
-            { "id": "chibi", "name": "Q版" },
-            { "id": "mecha", "name": "机甲" },
-            { "id": "isekai", "name": "异世界" },
-            { "id": "shoujo", "name": "少女漫" },
-            { "id": "shounen", "name": "少年漫" },
-            { "id": "ghibli", "name": "吉卜力风" }
+            { "id": "anime_realistic", "name": "写实动漫/半写实" },
+            { "id": "anime_cel", "name": "赛璐珞/经典日漫" },
+            { "id": "chibi", "name": "Q版/大头萌系" },
+            { "id": "manga_bw", "name": "黑白漫画/网纹" },
+            { "id": "ghibli", "name": "吉卜力/宫崎骏风" },
+            { "id": "shinkai", "name": "新海诚/光影系" },
+            { "id": "shonen", "name": "少年漫/热血" },
+            { "id": "shojo", "name": "少女漫/唯美" },
+            { "id": "manhwa", "name": "韩漫/条漫风" },
+            { "id": "light_novel", "name": "轻小说插图风" },
+            { "id": "anime_cyberpunk", "name": "赛博朋克动漫" },
+            { "id": "anime_fantasy", "name": "异世界/奇幻动漫" }
           ]
         },
         {
           "id": "anime_features",
-          "name": "特征",
+          "name": "动漫特征",
           "items": [
-            { "id": "big_eyes", "name": "大眼睛" },
-            { "id": "colorful_hair", "name": "彩色发色" },
-            { "id": "ahoge", "name": "呆毛" },
-            { "id": "animal_ears", "name": "兽耳" },
-            { "id": "tail", "name": "尾巴" },
-            { "id": "heterochromia", "name": "异色瞳" }
+            { "id": "big_sparkle_eyes", "name": "大眼/星光眼" },
+            { "id": "colorful_hair_anime", "name": "彩色渐变发" },
+            { "id": "ahoge", "name": "呆毛/翘发" },
+            { "id": "animal_ears", "name": "兽耳/猫耳" },
+            { "id": "fluffy_tail", "name": "毛茸尾巴" },
+            { "id": "heterochromia", "name": "异色瞳" },
+            { "id": "school_uniform", "name": "校服/制服" },
+            { "id": "magical_girl", "name": "魔法少女" },
+            { "id": "mecha_armor", "name": "机甲/外骨骼" },
+            { "id": "wings_angel", "name": "翅膀/羽翼" },
+            { "id": "oni_horns", "name": "鬼角/恶魔角" },
+            { "id": "elf_ears", "name": "精灵耳" }
           ]
         }
       ]
     },
     {
       "id": "game",
-      "name": "游戏",
+      "name": "游戏/虚拟",
       "blocks": [
         {
           "id": "game_genre",
-          "name": "类型",
+          "name": "游戏类型",
           "items": [
-            { "id": "rpg", "name": "RPG角色" },
-            { "id": "fps", "name": "FPS风格" },
-            { "id": "moba", "name": "MOBA英雄" },
-            { "id": "gacha", "name": "抽卡角色" },
-            { "id": "pixel_art", "name": "像素风" },
-            { "id": "voxel", "name": "体素风" },
-            { "id": "visual_novel", "name": "视觉小说" }
+            { "id": "rpg_char", "name": "RPG/开放世界角色" },
+            { "id": "moba_hero", "name": "MOBA英雄" },
+            { "id": "gacha_card", "name": "抽卡/立绘风格" },
+            { "id": "fps_operator", "name": "FPS干员/特工" },
+            { "id": "fighting_game", "name": "格斗游戏角色" },
+            { "id": "horror_survival", "name": "恐怖/生存游戏" },
+            { "id": "mmo_avatar", "name": "MMO网游角色" },
+            { "id": "indie_game", "name": "独立游戏风格" },
+            { "id": "pixel_art", "name": "像素艺术" },
+            { "id": "voxel", "name": "体素/方块风" },
+            { "id": "vn_sprite", "name": "视觉小说立绘" }
           ]
         },
         {
-          "id": "game_style",
-          "name": "画风",
+          "id": "game_engine",
+          "name": "引擎/画质",
           "items": [
-            { "id": "unreal", "name": "虚幻引擎" },
-            { "id": "unity", "name": "Unity渲染" },
-            { "id": "handpainted", "name": "手绘贴图" },
-            { "id": "pbr", "name": "PBR写实" },
-            { "id": "toon", "name": "三渲二" },
-            { "id": "lowpoly", "name": "低多边形" }
+            { "id": "unreal5", "name": "虚幻5/Nanite" },
+            { "id": "unity_urp", "name": "Unity URP" },
+            { "id": "hand_painted", "name": "手绘风格/水彩" },
+            { "id": "pbr_realistic", "name": "PBR写实" },
+            { "id": "cel_shading", "name": "三渲二/卡通渲染" },
+            { "id": "low_poly", "name": "低多边形/Low Poly" },
+            { "id": "ps2_retro", "name": "复古PS2/PS1画质" },
+            { "id": "rtx_raytracing", "name": "光追/次世代" }
           ]
         }
       ]
     },
     {
-      "id": "nonhuman",
-      "name": "非人物",
+      "id": "quality",
+      "name": "画质/渲染词",
       "blocks": [
         {
-          "id": "creature",
-          "name": "生物",
+          "id": "resolution",
+          "name": "分辨率",
           "items": [
-            { "id": "anthro", "name": "兽人" },
-            { "id": "elf", "name": "精灵" },
-            { "id": "demon", "name": "恶魔" },
-            { "id": "angel", "name": "天使" },
-            { "id": "vampire", "name": "吸血鬼" },
-            { "id": "werewolf", "name": "狼人" },
-            { "id": "dragon", "name": "龙族" },
-            { "id": "fairy", "name": "妖精" }
+            { "id": "8k", "name": "8K超高清" },
+            { "id": "4k", "name": "4K" },
+            { "id": "hd", "name": "HD高清" },
+            { "id": "masterpiece", "name": "大师级作品" },
+            { "id": "best_quality", "name": "最佳画质" },
+            { "id": "ultra_detailed", "name": "超细节" },
+            { "id": "sharp_focus", "name": "锐利对焦" }
           ]
         },
         {
-          "id": "object",
-          "name": "拟物",
+          "id": "texture_quality",
+          "name": "质感描述",
           "items": [
-            { "id": "robot", "name": "机器人" },
-            { "id": "cyborg", "name": "赛博格" },
-            { "id": "golem", "name": "魔像" },
-            { "id": "puppet", "name": "人偶" },
-            { "id": "doll", "name": "BJD娃娃" },
-            { "id": "statue", "name": "雕像" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "weather",
-      "name": "天气特效",
-      "blocks": [
-        {
-          "id": "precipitation",
-          "name": "降水",
-          "items": [
-            { "id": "light_rain", "name": "细雨" },
-            { "id": "heavy_rain", "name": "暴雨" },
-            { "id": "rain_window", "name": "窗上雨滴" },
-            { "id": "snow", "name": "飘雪" },
-            { "id": "blizzard", "name": "暴风雪" },
-            { "id": "hail", "name": "冰雹" },
-            { "id": "drizzle", "name": "毛毛雨" }
+            { "id": "skin_texture", "name": "真实皮肤纹理/毛孔" },
+            { "id": "subsurface_scatter", "name": "次表面散射/透光" },
+            { "id": "fabric_detail", "name": "织物纹理/线缝" },
+            { "id": "hair_strands", "name": "发丝细节/根根分明" },
+            { "id": "iris_detail", "name": "虹膜纹理/眼神光" },
+            { "id": "vein_visible", "name": "微血管可见" },
+            { "id": "sweat_sheen", "name": "汗珠/微汗光泽" },
+            { "id": "goosebumps", "name": "鸡皮疙瘩/肌理" }
           ]
         },
         {
-          "id": "atmosphere",
-          "name": "大气",
+          "id": "render_quality",
+          "name": "渲染品质",
           "items": [
-            { "id": "mist", "name": "薄雾" },
-            { "id": "thick_fog", "name": "浓雾" },
-            { "id": "haze", "name": "霾" },
-            { "id": "dust", "name": "沙尘" },
-            { "id": "smoke", "name": "烟雾" },
-            { "id": "steam", "name": "水蒸气" },
-            { "id": "clouds", "name": "云海" }
-          ]
-        },
-        {
-          "id": "light_effects",
-          "name": "光效",
-          "items": [
-            { "id": "rainbow", "name": "彩虹" },
-            { "id": "lightning", "name": "闪电" },
-            { "id": "sunbeam", "name": "丁达尔光" },
-            { "id": "lens_flare", "name": "镜头光晕" },
-            { "id": "bokeh_rain", "name": "雨天光斑" },
-            { "id": "god_rays", "name": "上帝之光" },
-            { "id": "aurora", "name": "极光" }
-          ]
-        },
-        {
-          "id": "particles",
-          "name": "粒子",
-          "items": [
-            { "id": "falling_petals", "name": "飘落花瓣" },
-            { "id": "floating_pollen", "name": "漂浮花粉" },
-            { "id": "ash", "name": "灰烬" },
-            { "id": "sparkles", "name": "星光闪烁" },
-            { "id": "fireflies", "name": "萤火虫" },
-            { "id": "butterflies", "name": "蝴蝶纷飞" }
+            { "id": "octane_render", "name": "Octane渲染" },
+            { "id": "arnold_render", "name": "Arnold渲染器" },
+            { "id": "vray", "name": "V-Ray" },
+            { "id": "cycles", "name": "Blender Cycles" },
+            { "id": "cg_unreal", "name": "虚幻引擎5" },
+            { "id": "blender_eevee", "name": "Eevee实时渲染" },
+            { "id": "raw_photo", "name": "RAW原片/未调色" },
+            { "id": "hdr_workflow", "name": "HDR工作流" }
           ]
         }
       ]
@@ -576,116 +774,50 @@
       "name": "反向提示词",
       "blocks": [
         {
-          "id": "original",
-          "name": "原创声明",
-          "items": [
-            { "id": "fictional", "name": "原创虚构人物" },
-            { "id": "no_real", "name": "无真人原型" },
-            { "id": "independent", "name": "独立角色设计" },
-            { "id": "unreal", "name": "非现实人物" },
-            { "id": "ai_created", "name": "纯AI创作" }
-          ]
-        },
-        {
-          "id": "copyright",
-          "name": "版权规避",
-          "items": [
-            { "id": "no_logo", "name": "无品牌LOGO" },
-            { "id": "no_ip", "name": "无标志性角色" },
-            { "id": "no_commercial", "name": "无商业IP" },
-            { "id": "no_watermark", "name": "无水印" },
-            { "id": "no_text", "name": "无文字" }
-          ]
-        },
-        {
           "id": "quality_neg",
-          "name": "质量屏蔽",
+          "name": "质量排除",
           "items": [
-            { "id": "no_lowres", "name": "低分辨率" },
-            { "id": "no_deform", "name": "畸形" },
-            { "id": "no_extra_fingers", "name": "多余手指" },
-            { "id": "no_blur", "name": "模糊" },
-            { "id": "no_noise", "name": "噪点" },
-            { "id": "no_warp", "name": "扭曲" },
-            { "id": "no_ugly", "name": "丑陋" }
+            { "id": "no_low_quality", "name": "低质量/低分辨率" },
+            { "id": "no_blurry", "name": "模糊" },
+            { "id": "no_deformed", "name": "畸形/变形" },
+            { "id": "no_bad_anatomy", "name": "错误解剖/断肢" },
+            { "id": "no_extra_fingers", "name": "多余手指/缺指" },
+            { "id": "no_poor_hands", "name": "糟糕的手部" },
+            { "id": "no_ugly_face", "name": "丑脸/扭曲五官" },
+            { "id": "no_cloned_face", "name": "克隆脸/千人一面" },
+            { "id": "no_plastic_skin", "name": "塑料感/假皮肤" },
+            { "id": "no_airbrush", "name": "过度磨皮/美颜" }
           ]
         },
         {
-          "id": "face_shield",
-          "name": "撞脸屏蔽",
+          "id": "copyright_neg",
+          "name": "版权/品牌排除",
           "items": [
+            { "id": "no_watermark", "name": "无水印" },
+            { "id": "no_logo", "name": "无品牌Logo" },
+            { "id": "no_text", "name": "无文字/签名" },
+            { "id": "no_famous_ip", "name": "无知名IP角色" },
             { "id": "no_celebrity", "name": "不相似任何名人" },
-            { "id": "no_actor", "name": "不相似任何演员" },
-            { "id": "no_public", "name": "不相似公众人物" },
-            { "id": "no_real_person", "name": "不相似任何真人" }
+            { "id": "no_real_person", "name": "不相似真实人物" }
           ]
         },
         {
-          "id": "customize",
-          "name": "用户自定义",
+          "id": "artifacts_neg",
+          "name": "瑕疵排除",
           "items": [
-            { "id": "mod_hair", "name": "自己改发型" },
-            { "id": "mod_cloth", "name": "自己改服饰" },
-            { "id": "mod_bg", "name": "自己改背景" },
-            { "id": "mod_light", "name": "自己改光影" },
-            { "id": "mod_pose", "name": "自己改姿态" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gptimage",
-      "name": "ChatGPT Image",
-      "blocks": [
-        {
-          "id": "narrative",
-          "name": "叙事结构",
-          "items": [
-            { "id": "first_person", "name": "第一人称视角" },
-            { "id": "story", "name": "故事感" },
-            { "id": "emotional", "name": "情绪叙事" },
-            { "id": "storyboard", "name": "电影分镜" },
-            { "id": "scene_desc", "name": "场景描写式" }
-          ]
-        },
-        {
-          "id": "language_style",
-          "name": "自然语言风格",
-          "items": [
-            { "id": "full_sentence", "name": "完整句子描述" },
-            { "id": "no_keywords", "name": "避免关键词堆叠" },
-            { "id": "photographer", "name": "像对摄影师说话" },
-            { "id": "conversational", "name": "对话式描述" },
-            { "id": "vivid_detail", "name": "生动细节描写" }
-          ]
-        },
-        {
-          "id": "dalle3_mode",
-          "name": "DALL-E 3 专用",
-          "items": [
-            { "id": "vivid", "name": "Vivid模式" },
-            { "id": "natural", "name": "Natural模式" },
-            { "id": "hd_texture", "name": "高清纹理" },
-            { "id": "text_render", "name": "文本渲染" },
-            { "id": "precise", "name": "精确指令跟随" }
-          ]
-        },
-        {
-          "id": "iterate",
-          "name": "迭代优化",
-          "items": [
-            { "id": "keep_subj", "name": "保持主体改背景" },
-            { "id": "keep_bg", "name": "保持背景改服装" },
-            { "id": "keep_all", "name": "保持一切改光影" },
-            { "id": "change_mood", "name": "改变情绪氛围" },
-            { "id": "change_time", "name": "改变时间时段" }
+            { "id": "no_jpeg_artifacts", "name": "无JPEG压缩伪影" },
+            { "id": "no_chromatic_aberr", "name": "无色差/紫边" },
+            { "id": "no_moire", "name": "无摩尔纹" },
+            { "id": "no_lens_dust", "name": "无镜头灰尘/划痕" },
+            { "id": "no_overexposed", "name": "无过曝/死白" },
+            { "id": "no_underexposed", "name": "无欠曝/死黑" }
           ]
         }
       ]
     }
   ],
   "quality": {
-    "prefix": "Create a highly detailed, photorealistic portrait. The image should have professional photography quality with exquisite skin texture, natural lighting, and cinematic color grading. Shot on high-end camera equipment with shallow depth of field.",
-    "suffix": "Ensure the character is completely original and fictional, not resembling any real person, celebrity, or existing copyrighted character. Avoid any brand logos, watermarks, text, or recognizable intellectual property. No deformed anatomy, extra fingers, or distorted features."
+    "prefix": "masterpiece, best quality, ultra detailed, professional photography, photorealistic, exquisite skin texture, natural lighting, shallow depth of field, cinematic color grading, shot on high-end camera",
+    "suffix": "original fictional character, not resembling any real person or celebrity, no brand logos, no watermarks, no text, anatomically correct, no deformed hands, no extra fingers, no duplicated features"
   }
 }

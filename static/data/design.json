@@ -1,0 +1,192 @@
+{
+  "category": "design",
+  "name": "平面设计",
+  "icon": "🎨",
+  "tabs": [
+    {
+      "id": "design_type",
+      "name": "设计类型",
+      "blocks": [
+        {
+          "id": "type",
+          "name": "项目类型",
+          "items": [
+            { "id": "logo", "name": "Logo/品牌标识" },
+            { "id": "poster", "name": "海报/招贴" },
+            { "id": "business_card", "name": "名片/名片设计" },
+            { "id": "brochure", "name": "画册/宣传册" },
+            { "id": "social_media", "name": "社交媒体图/封面" },
+            { "id": "banner_ad", "name": "Banner/广告横幅" },
+            { "id": "packaging", "name": "包装设计" },
+            { "id": "app_icon", "name": "App图标/启动页" },
+            { "id": "ui_screen", "name": "UI界面/网页设计" },
+            { "id": "book_cover", "name": "书籍封面" },
+            { "id": "invitation", "name": "请柬/邀请函" },
+            { "id": "infographic", "name": "信息图/数据可视化" },
+            { "id": "merchandise", "name": "周边/文创/T恤图案" },
+            { "id": "presentation", "name": "PPT/演示文稿" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design_style",
+      "name": "设计风格",
+      "blocks": [
+        {
+          "id": "style_category",
+          "name": "风格流派",
+          "items": [
+            { "id": "minimal_clean", "name": "极简/干净/留白" },
+            { "id": "swiss_style", "name": "瑞士风格/网格系统" },
+            { "id": "tech_futuristic", "name": "科技/未来/赛博" },
+            { "id": "luxury_premium", "name": "高端/奢华/质感" },
+            { "id": "vintage_retro", "name": "复古/Vintage/怀旧" },
+            { "id": "nature_organic", "name": "自然/有机/生态" },
+            { "id": "playful_cartoon", "name": "趣味/卡通/童真" },
+            { "id": "brutalist_raw", "name": "粗野主义/原始/大胆" },
+            { "id": "glassmorphism", "name": "玻璃拟态/毛玻璃" },
+            { "id": "neumorphism", "name": "新拟态/软UI" },
+            { "id": "y2k_aesthetic", "name": "Y2K千禧/金属光泽" },
+            { "id": "japanese_wabi", "name": "日式/侘寂/禅意" },
+            { "id": "art_deco", "name": "装饰艺术/Art Deco" },
+            { "id": "bauhaus", "name": "包豪斯/构成主义" },
+            { "id": "pop_art", "name": "波普艺术/大胆撞色" },
+            { "id": "3d_abstract", "name": "3D/抽象/C4D质感" },
+            { "id": "hand_drawn", "name": "手绘/涂鸦/插画风" },
+            { "id": "collage_mix", "name": "拼贴/混合媒介" },
+            { "id": "gradient_mesh", "name": "渐变/流体/弥散光" },
+            { "id": "noise_grain", "name": "噪点/颗粒/纹理感" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "color_palette",
+      "name": "色彩方案",
+      "blocks": [
+        {
+          "id": "color_scheme",
+          "name": "配色类型",
+          "items": [
+            { "id": "monochrome", "name": "单色/同色系" },
+            { "id": "complementary", "name": "补色/对比色" },
+            { "id": "analogous", "name": "邻近色/和谐" },
+            { "id": "triadic", "name": "三角色/活力" },
+            { "id": "gradient_flow", "name": "渐变流动/弥散" },
+            { "id": "neon_glow", "name": "霓虹/荧光/发光" },
+            { "id": "pastel_muted", "name": "马卡龙/莫兰迪/低饱和" },
+            { "id": "dark_mode", "name": "暗黑模式/深色底" },
+            { "id": "earthy_warm", "name": "大地色/温暖" },
+            { "id": "cool_tech", "name": "冷色/科技蓝" },
+            { "id": "gold_black", "name": "金+黑/奢华" },
+            { "id": "red_white", "name": "红+白/醒目" },
+            { "id": "brand_colors", "name": "指定品牌色/自定义" }
+          ]
+        },
+        {
+          "id": "popular_colors",
+          "name": "2025流行色",
+          "items": [
+            { "id": "peach_fuzz", "name": "柔和蜜桃/Peach Fuzz" },
+            { "id": "cyber_lime", "name": "赛博青柠/荧光绿" },
+            { "id": "midnight_plum", "name": "午夜李紫/深邃紫" },
+            { "id": "ocean_depths", "name": "深海蓝/沉浸蓝" },
+            { "id": "sunset_coral", "name": "落日珊瑚/暖橘" },
+            { "id": "terracotta", "name": "赤陶/陶土色" },
+            { "id": "digital_lavender", "name": "数字薰衣草/紫" },
+            { "id": "sage_green", "name": "鼠尾草绿/治愈绿" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typography",
+      "name": "排版/字体",
+      "blocks": [
+        {
+          "id": "font_style",
+          "name": "字体风格",
+          "items": [
+            { "id": "sans_serif", "name": "无衬线/现代/Helvetica感" },
+            { "id": "serif", "name": "衬线/优雅/Times感" },
+            { "id": "slab_serif", "name": "粗衬线/力量感" },
+            { "id": "script_calligraphy", "name": "手写/书法/花体" },
+            { "id": "display_decorative", "name": "展示字/装饰/个性" },
+            { "id": "monospace", "name": "等宽/代码/打字机" },
+            { "id": "chinese_song", "name": "宋体/传统中文" },
+            { "id": "chinese_hei", "name": "黑体/现代中文" },
+            { "id": "bold_heavy", "name": "粗重/醒目/标题感" },
+            { "id": "thin_light", "name": "纤细/轻盈/高端感" },
+            { "id": "variable_font", "name": "可变字体/动态" },
+            { "id": "custom_lettering", "name": "定制字体/手绘字" }
+          ]
+        },
+        {
+          "id": "layout_style",
+          "name": "排版布局",
+          "items": [
+            { "id": "asymmetric_grid", "name": "不对称网格/动感" },
+            { "id": "centered_classic", "name": "居中对称/经典" },
+            { "id": "full_bleed", "name": "满版/出血/冲击力" },
+            { "id": "white_space", "name": "大量留白/呼吸感" },
+            { "id": "magazine_editorial", "name": "杂志编辑风/版式感" },
+            { "id": "chaotic_punk", "name": "混乱/朋克/拼贴" },
+            { "id": "modular_grid", "name": "模块网格/信息层级" },
+            { "id": "single_focus", "name": "单视觉焦点/极简" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composition_layout",
+      "name": "构图/元素",
+      "blocks": [
+        {
+          "id": "visual_element",
+          "name": "视觉元素",
+          "items": [
+            { "id": "geometric_shapes", "name": "几何图形/抽象形" },
+            { "id": "organic_forms", "name": "有机形态/流动线条" },
+            { "id": "3d_illustration", "name": "3D渲染/立体元素" },
+            { "id": "photography", "name": "摄影图片为主" },
+            { "id": "flat_illustration", "name": "扁平插画/矢量" },
+            { "id": "line_art", "name": "线稿/线条艺术" },
+            { "id": "halftone_dots", "name": "半调网点/丝印感" },
+            { "id": "blob_fluid", "name": "流体形状/不规则" },
+            { "id": "abstract_texture", "name": "抽象纹理/材质感" },
+            { "id": "duotone", "name": "双色调/图像处理" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "name": "应用场景",
+      "blocks": [
+        {
+          "id": "industry",
+          "name": "行业领域",
+          "items": [
+            { "id": "tech_startup", "name": "科技/互联网/创业" },
+            { "id": "fashion_beauty", "name": "时尚/美妆/奢侈" },
+            { "id": "food_beverage", "name": "餐饮/食品/饮品" },
+            { "id": "health_wellness", "name": "健康/医疗/养生" },
+            { "id": "education", "name": "教育/培训/知识" },
+            { "id": "real_estate", "name": "房地产/建筑/家居" },
+            { "id": "entertainment", "name": "娱乐/影视/音乐" },
+            { "id": "finance", "name": "金融/保险/投资" },
+            { "id": "sports_fitness", "name": "运动/健身/户外" },
+            { "id": "nonprofit", "name": "公益/NGO/环保" },
+            { "id": "culture_art", "name": "文化/艺术/展览" },
+            { "id": "ecommerce", "name": "电商/促销/大促" }
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "prefix": "Professional graphic design, clean composition, visual hierarchy, modern aesthetic,",
+    "suffix": "vector art, high resolution, print-ready, no watermarks, original design"
+  }
+}
