@@ -644,6 +644,112 @@
       ]
     },
     {
+      "id": "realism",
+      "name": "真人质感",
+      "blocks": [
+        {
+          "id": "skin_texture",
+          "name": "皮肤质感",
+          "items": [
+            { "id": "visible_pores", "name": "毛孔可见/T区清晰" },
+            { "id": "peach_fuzz", "name": "面部绒毛/桃绒" },
+            { "id": "subsurface_scatter", "name": "次表面散射/透光感" },
+            { "id": "skin_microrelief", "name": "皮肤微起伏/橘皮纹理" },
+            { "id": "fine_vellus_hair", "name": "细软汗毛/体毛可见" },
+            { "id": "pores_nose", "name": "鼻翼粗大毛孔" },
+            { "id": "goosebumps", "name": "鸡皮疙瘩/毛囊凸起" },
+            { "id": "rough_texture", "name": "粗糙颗粒感/非光滑皮" },
+            { "id": "skin_stretch_marks", "name": "皮肤拉伸纹/生长纹" },
+            { "id": "cellulite", "name": "橘皮组织/脂肪团纹理" },
+            { "id": "keratosis_pilaris", "name": "毛周角化/鸡皮肤" }
+          ]
+        },
+        {
+          "id": "sweat_sebum",
+          "name": "汗水/油脂",
+          "items": [
+            { "id": "sweat_beads", "name": "汗珠/晶莹汗滴" },
+            { "id": "nose_sweat", "name": "鼻翼微汗/反光点" },
+            { "id": "forehead_sheen", "name": "额头薄汗/亮泽" },
+            { "id": "tzone_sebum", "name": "T区皮脂微光" },
+            { "id": "upper_lip_sweat", "name": "上唇细密汗珠" },
+            { "id": "sweat_soaked_hair", "name": "汗湿头发/鬓角贴面" },
+            { "id": "back_sweat", "name": "背部汗渍/衣服浸湿" },
+            { "id": "chest_dew", "name": "锁骨/胸口汗光" },
+            { "id": "post_exercise_flush", "name": "运动后潮红+汗水" },
+            { "id": "crying_tears", "name": "泪痕/眼周湿润" }
+          ]
+        },
+        {
+          "id": "skin_imperfections",
+          "name": "瑕疵/印记",
+          "items": [
+            { "id": "freckles_natural", "name": "自然雀斑/不均匀分布" },
+            { "id": "age_spots", "name": "晒斑/老年斑" },
+            { "id": "acne_scars", "name": "痘印/痘坑" },
+            { "id": "moles_beauty", "name": "痣/美人痣" },
+            { "id": "facial_scar", "name": "面部疤痕/缝线痕" },
+            { "id": "birthmark", "name": "胎记/色素斑" },
+            { "id": "sun_damage", "name": "日晒损伤/光老化" },
+            { "id": "redness_blotch", "name": "泛红/肤色不均" },
+            { "id": "dark_circles", "name": "黑眼圈/眼袋" },
+            { "id": "rosacea", "name": "玫瑰痤疮/面部潮红" },
+            { "id": "vitiligo", "name": "白癜风斑块" },
+            { "id": "wound_scab", "name": "伤口/结痂/创可贴" },
+            { "id": "bruise", "name": "淤青/青紫伤痕" },
+            { "id": "tan_lines", "name": "晒痕/泳衣印" },
+            { "id": "stretch_marks", "name": "妊娠纹/肥胖纹" }
+          ]
+        },
+        {
+          "id": "eye_detail",
+          "name": "眼部细节",
+          "items": [
+            { "id": "moist_cornea", "name": "湿润角膜/反光点" },
+            { "id": "iris_texture", "name": "虹膜放射纹理/层次" },
+            { "id": "iris_color_grad", "name": "虹膜渐变(外深内浅)" },
+            { "id": "bloodshot_eyes", "name": "眼白微血丝" },
+            { "id": "tear_duct_detail", "name": "泪腺/内眼角细节" },
+            { "id": "individual_lashes", "name": "睫毛根根分明" },
+            { "id": "double_eyelid_crease", "name": "双眼皮褶皱纹理" },
+            { "id": "crow_feet", "name": "鱼尾纹/笑纹" },
+            { "id": "under_eye_bags", "name": "卧蚕/眼袋结构" },
+            { "id": "eyelid_vein", "name": "眼睑微血管可见" },
+            { "id": "eye_reflection_obj", "name": "眼中倒影/环境反射" }
+          ]
+        },
+        {
+          "id": "lip_detail",
+          "name": "唇部细节",
+          "items": [
+            { "id": "lip_vertical_lines", "name": "唇纹/纵向纹理" },
+            { "id": "chapped_lips", "name": "唇部干裂/脱皮" },
+            { "id": "natural_lip_gloss", "name": "自然唇部光泽/湿润" },
+            { "id": "lip_color_grad", "name": "唇色渐变(外深内浅)" },
+            { "id": "corner_darkening", "name": "嘴角暗沉" },
+            { "id": "lip_edge_blur", "name": "唇线模糊/非锐利边缘" }
+          ]
+        },
+        {
+          "id": "micro_expression",
+          "name": "微表情/生理",
+          "items": [
+            { "id": "natural_asymmetry", "name": "面部自然不对称" },
+            { "id": "subtle_brow_raise", "name": "单侧眉毛微扬" },
+            { "id": "lip_twitch", "name": "嘴角轻微抽动/似笑非笑" },
+            { "id": "neck_tendon", "name": "颈侧肌腱/静脉微凸" },
+            { "id": "adams_apple", "name": "喉结/吞咽感" },
+            { "id": "temple_vein", "name": "太阳穴淡蓝静脉" },
+            { "id": "knuckle_detail", "name": "指节/关节纹理" },
+            { "id": "blue_veins_wrist", "name": "手腕/手背青筋" },
+            { "id": "goosebumps_arm", "name": "手臂鸡皮/冷感" },
+            { "id": "blushing_ears", "name": "耳廓泛红/血丝透光" },
+            { "id": "nail_detail", "name": "指甲/甲半月/倒刺" }
+          ]
+        }
+      ]
+    },
+    {
       "id": "anime",
       "name": "动漫/二次元",
       "blocks": [
